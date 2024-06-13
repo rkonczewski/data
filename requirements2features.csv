@@ -1,0 +1,170 @@
+﻿RequirementID,FeatureID
+1,Customer-Customer Accounts
+1,Customer-Customer Groups
+1,Customer-Customer Login
+1,Customer-Customer Registration
+1,Customer-Customer Access
+2,Customer-Registration of new Company
+2,Customer-Company Account
+2,Data Exchange-Company & Business Units integration
+2,Data Exchange-Company User integration
+3,Customer-Company User Roles and Permissions
+3,IAM-SSO for Customers
+3,Customer-Customer Groups
+4,Customer-Company User Roles and Permissions
+4,Customer-Company Login
+5,Customer-Company User Roles and Permissions
+5,Customer-Company Login
+6,"Customer-Cookie Notice, Terms, Privacy Compliance"
+7,Customer-Company User Roles and Permissions
+8,Customer-Business on Behalf
+8,Customer-Third Party Delegations
+9,Customer-Customer impersonation
+10,Data Exchange-Product integration
+10,Product-Product Abstraction
+10,Product-Product Attributes
+10,CMS-Footer
+10,Product-Product Detail Page
+10,CMS-Header
+10,CMS-Breadcrumbs
+10,CMS-Banner
+11,Product-Category Management
+11,Product-Category Pages. PLP.
+11,Product-Product Images
+11,Data Exchange-Category integration
+11,Product-Literature Library
+11,Product-Product detail page
+11,Product-Product Detail Page
+11,CMS-Header
+11,CMS-Breadcrumbs
+11,CMS-Banner
+12,Product-Category Management
+12,Product-Product Relations
+12,Product-Marketplace
+12,CMS-About Us
+12,CMS-Navigation
+12,Localisation & Translation-Storefront Translations
+13,Search-Full-site Search
+13,Search-Faced filters
+13,Product-Marketplace
+13,CMS-About Us
+13,CMS-Navigation
+13,Localisation & Translation-Storefront Translations
+14,Product-Downloadable/virtual products
+14,Product-Configurable Product
+14,Product-Product Groups
+14,Product-Product Options
+14,Home
+14,Search-Full-site Search
+14,CMS-Footer
+15,Search-Full-site Search
+15,Search-Faced filters
+15,Product-Guided Selling
+15,CMS-Footer
+15,Home
+15,Search-Full-site Search
+15,CMS-Footer
+16,Product-Literature Library
+16,Search-Full-site Search
+16,Search-Faced filters
+16,Data Exchange-Documentation Integration
+16,Search-DocumentationSearch
+17,Product-Literature Library
+17,DAM-Resources
+18,Product-Literature Library
+18,DAM-Resources
+19,Product-Literature Library
+19,DAM-Resources
+20,Product-Literature Library
+20,DAM-Resources
+21,Product-Literature Library
+21,DAM-Resources
+22,CMS-CMS Blocks
+23,Analytics and Reporting-Google Tag Manager and GA4
+24,Analytics and Reporting-Google Tag Manager and GA4
+25,Analytics and Reporting-Google Tag Manager and GA4
+26,RFQ-Quotation & Offer Management
+26,RFQ-Marketplace distributor RFQ
+27,Data Exchange-WebConfig
+27,Customer-Installed Bases
+28,Data Exchange-WebConfig
+28,Customer-Installed Bases
+29,Data Exchange-WebConfig
+29,Customer-Installed Bases
+30,Data Exchange-WebConfig
+30,Customer-Installed Bases
+31,Data Exchange-WebConfig
+31,Customer-Installed Bases
+32,Data Exchange-WebConfig
+32,Customer-Installed Bases
+33,Data Exchange-Case/Tech Support
+33,Customer-Installed Bases
+34,Data Exchange-WebConfig
+34,Customer-Installed Bases
+35,Data Exchange-WebConfig
+35,Customer-Installed Bases
+36,Analytics and Reporting-Generic Report
+36,Data Exchange-WebConfig
+36,Customer-Installed Bases
+37,Data Exchange-WebConfig
+37,Data Exchange-Inventory (SOH) integration
+38,Data Exchange-WebConfig
+38,Data Exchange-Serial Number Lookup
+38,Product-Literature Library
+38,Cart & Checkout-Cart Functionality & Calculations
+38,Cart & Checkout-Cart page
+38,Cart & Checkout-Checkout step - customer
+38,Cart & Checkout-Checkout step - delivery & billing addresses
+38,Cart & Checkout-Checkout step - shipment
+38,Cart & Checkout-Checkout step - payment
+39,Data Exchange-WebConfig
+39,Search-Full-site Search
+39,Search-Faced filters
+39,Order-Order Management
+39,DAM-Applications
+40,Data Exchange-WebConfig
+40,Search-Full-site Search
+40,Search-Faced filters
+40,Order-Order Management
+40,DAM-Applications
+41,Order-State Machine Modelling
+41,Order-Reorder
+41,Customer-Customer Accounts
+41,Customer-My Profile. Order list and details.
+42,Data Exchange-Case/Tech Support
+42,Shipment-Shipment
+43,Data Exchange-Case/Tech Support
+44,Analytics and Reporting-Customer Experience Management
+45,Analytics and Reporting-Customer Experience Management
+46,Data Exchange-WebConfig
+46,Product-Literature Library
+46,Search-Full-site Search
+46,Search-Faced filters
+47,Customer-Installed Bases
+48,Customer-Service Agreements
+49,Customer-Installed Bases
+50,Product-Literature Library
+51,Cart & Checkout-Checkout step - summary
+51,Cart & Checkout-Checkout step - place order
+51,Cart & Checkout-Checkout step - success
+51,Data Exchange-Order integration
+51,PurchaseRequest
+52,Data Exchange-Pricing  integration
+53,RFQ-Quotation & Offer Management
+53,Data Exchange-Pricing  integration
+54,RFQ-Quotation & Offer Management
+54,Data Exchange-Pricing  integration
+55,Data Exchange-Pricing  integration
+55,RFQ-Quotation & Offer Management
+56,Data Exchange-Pricing  integration
+56,RFQ-Quotation & Offer Management
+57,Data Exchange-Case/Tech Support
+57,Customer-Service Agreements
+58,Data Exchange-Case/Tech Support
+58,Customer-Service Agreements
+59,Data Exchange-Case/Tech Support
+59,Customer-Service Agreements
+60,Data Exchange-Case/Tech Support
+60,Customer-Service Agreements
+61,Data Exchange-Case/Tech Support
+61,Customer-Service Agreements

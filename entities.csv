@@ -1,0 +1,74 @@
+ID,Name,Description,Group,Complexity,inScope,Comment,ParentClass,In Template
+AdminIdentity,Admin Identity, ,TransactionalData,Low,,,User,Y
+AdminUser,Admin User,"A data set of Back Office users, administrators of the system.",MasterData,Medium,,,User,Y
+AdressData,Adress Data,Adress location information,MasterData,,,,Company,Y
+Analytics,Analytic Dataset,"A set of data passed to analytics platform, depends on use case.",TransactionalData,,,,Transactional,Y
+Case,Support Case,"A set of data passed to Support platform, depends on use case. May include case registration and following case related communication.",TransactionalData,Low,,,Communication,Y
+Catalogue,Catalogue Data,Abstract catalogue information class,MasterData,,,,Data,Y
+Chat,Live Chat,Data stream used by external Live Chat service.,TransactionalData,Low,,,Communication,Y
+Company,Company,Legal entity representing an association of people with a specific objective,MasterData,,,,Object,Y
+CustomerAccount,Company Customer Account,"Company account data set like company name, activity, status. Top level of every B2B business model hierarchy.",MasterData,Medium,,PB: Nie mamy encji na Company permissions and roles.,Persona,Y
+CustomerAddress,Company Customer Adress,Addresses data and type for Company Account.,MasterData,Medium,,,AdressData,Y
+CustomerBU,Company Customer Business Unit,Company Business Unit data and structure (hierarchy).,MasterData,Medium,,,Company,Y
+CustomerConsent,Consent Dataset,,TransactionalData,,,,Transactional,Y
+CustomerIdentity,Customer Identity,,TransactionalData,Low,,,Transactional,Y
+CustomerRolesAndPermissions,Customer Roles and Permissions,Definittion of roles of custome users in context of eCommerce capabilities. In example Buyer or Approver,,,,,Company,
+CustomerUser,Customer User,"A data set of particular user within a company, name, email, credentials (potentially) etc. OR An individual customer making purchase in B2C context",MasterData,Medium,,,User,Y
+Data,Data element,Element of data,MasterData,,,,Object,Y
+DiscountCoupon,Discount Coupon,A data set describing coupon codes. A discount itself is maintained separatly.,MasterData,,,,Pricing,Y
+GoodsReceiptNote,Goods Receipt Note,,TransactionalData,,,,Transactional,Y
+Interacton,User Interaction,User / Customer intaraction data showing how the customers are using the system,TransactionalData,Medium,,,Transactional,Y
+Inventory,Inventory data,Inventory (stock) information,MasterData,,,,Catalogue,
+InvoiceBinary,Invoice Binary,Binary data related to order invocing. Format depends on use case.,TransactionalData,,,,InvoiceData,Y
+InvoiceData,Invoice,Data related to order invocing. Format depends on use case.,TransactionalData,Medium,,,Transactional,Y
+Media,"Media, assets","Various types of binary data used as media assets, images, videos, PDFs, binaries, etc.",AssetData,Medium,,,Catalogue,Y
+MerchantAccount,Merchant,Merchant/Seller account master data,MasterData,Medium,,,Persona,Y
+MerchantSOH,Merchant's Stock On Hand,Quantity of goods or products that a business currently has physically available in its possession at a given moment.,MasterData,Low,yes,,Inventory,Y
+MerchantUser,Merchant User,A personal account for Merchant User under Merchant Account,MasterData,Medium,,,User,Y
+Message,Communication Message,"Human related communication messages like emails, SMS etc.",TransactionalData,,,This is not related with quque related messaging.,Communication,Y
+Object,Object,Abstract object,MasterData,,,,,Y
+Offer,Offer,"Marketplace and Merchants product offers. Contains information what product is offered, price, stock. May contain merchant specific addons or conditions.",MasterData,Medium,,,Pricing,Y
+Opportunity,Support Opportunity,"A lead of order opportunity. May be used on cart creation, update, abandonment, etc.",TransactionalData,Low,,,Pricing,Y
+Order,Order master data,"Order related master data, metadata with order details, buyers, addresses, items, shipment/payment methods etc.",TransactionalData,Medium,,,Transactional,Y
+OrderDocuments,Order Documents,"Documents like invoices, leasing offers",TransactionalData,Medium,,,Transactional,Y
+Parts_Category,Parts_Category,MAN Parts. ,MasterData,Medium,,,ProductCategory,N
+Parts_CustomerAccount,Parts_CustomerAccount,MAN Parts. ,MasterData,Medium,,,CustomerAccount,N
+Parts_CustomerAddress,Parts_CustomerAddress,MAN Parts. ,MasterData,Medium,,,CustomerAddress,N
+Parts_CustomerBU,Parts_CustomerBU,MAN Parts. ,MasterData,Medium,,,CustomerBU,N
+Parts_CustomerUser,Parts_CustomerUser,MAN Parts. ,MasterData,Medium,,,CustomerUser,N
+Parts_Images,Parts_Images,MAN Parts. ,MasterData,Low,,,Media,N
+Parts_Order,Parts_Order,MAN Parts. ,TransactionalData,Complex,,,Order,N
+Parts_Product,Parts_Product,MAN Parts. ,MasterData,Complex,,,Product,N
+Payment,Payment,"Payment related data used by PSP, eCommerce, Marketplace e.g. selected payment methods, payment charges, money transfers etc.",TransactionalData,,,,Transactional,Y
+Persona,Persona,A person or stakeholder of the ecosystem,MasterData,,,,Object,Y
+PickupLocation,Pickup Location,Location from which customer can pickup goods. Used in store locator functionality,MasterData,Low,,,AdressData,Y
+Price,Price,"Pricings for products, may be used for marketplace offers.",MasterData,Medium,,,Pricing,Y
+Pricing,Pricing Data,Abstract class to hold pricing information,MasterData,,,,Catalogue,Y
+Product,Product,Product Master Data,MasterData,Medium,yes,,Catalogue,Y
+ProductBundle,ProductBundle,MAN Vehicles. A bundle data. Contains a configured van and service packages.,MasterData,Low,,,Product,Y
+ProductCategory,Product Category,Catalog related category tree. May contain hierarchy and metadata.,MasterData,Medium,,,Catalogue,Y
+ProductDetails,Configuration Product Details,MAN Vehicles. Van configuration details. Pulled from CWC system.,MasterData,Medium,,,Product,Y
+ProductionOpenSlot,Open Slot,MAN Vehicles. Van production open slot report,MasterData,Low,,,Product,Y
+ProductsRelations,Parts_Relations,,MasterData,Medium,,,Product,N
+Promotion,Promotion,,MasterData,,,,Pricing,Y
+PurchaseRequest,Purchase Request,Purchase Request document (company internal),TransactionalData,Medium,,,Transactional,Y
+Quote,Quote,,,,,,Cart,
+Refund,Refund,,TransactionalData,,,,Transactional,Y
+RequestForQuote,Request for Quote,,TransactionalData,Complex,,,Transactional,Y
+ResidualValue,Vehicle Residual Value,remaining car value after leasing contract end,TransactionalData,Low,,,Pricing,Y
+Return,Return,Return document,TransactionalData,,,,Transactional,Y
+SerialNumberToBOM,Serial Number to BOM translation,,MasterData,Medium,,,Catalogue,Y
+ServicePackage,Service package,MAN Vehicles. Components of bundle offering.,MasterData,Low,,,Product,Y
+Shipment,Shipment,Shipment information,TransactionalData,Low,,,Transactional,Y
+ShipToLocation,Ship To Location,,MasterData,Low,,,AdressData,N
+StockOnHand,Stock,Inventory (stock) information,MasterData,Low,,,Inventory,Y
+Transactional,Transactional Data,Abstract class of transctional data,TransactionalData,,,,Data,
+User,User,A person using the systems,MasterData,,,,Persona,Y
+UserExperience,User Experience,Customer user feedback and other experience of using the system and products,TransactionalData,Medium,,,User,Y
+VanServicePackagePrice,Service package price,MAN Vehicles service packages prices.,MasterData,Medium,,,Price,N
+VanVehiclePrice,Vehicle price,MAN Vehicles configuration prices.,MasterData,Medium,,,Price,N
+Documentation,Documentation,Technical documentation of a product or service,MasterData,,,,Catalogue,Y
+GuidedSelling,Guided Selling,Guided Selling communication (questions to customer and answers from customer leading to product suggestions),MasterData,,,,Catalogue,Y
+InstalledBase,Installed Base,Devices installed at client location,MasterData,,,,Catalogue,Y
+ServiceAgreement,Service Agreement,Document describint conditions on which a service is being provided,TransactionalData,,,,,Y
+ServiceIntervention,Service Intervention,Historical interventions provided in context of the service agreement,TransactionalData,,,,,N

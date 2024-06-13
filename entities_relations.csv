@@ -1,0 +1,47 @@
+FromEntity,ToEntity,Description,Type
+AdminUser,Case,resolves,one-to-many
+AdminUser,AdminIdentity,identiffied by,one-to-one
+Analytics,Order,reflects,one-to-many
+CustomerUser,Case,creates,one-to-many
+Opportunity,Product,reffers to,many-to-many
+ProductCategory,Product,contains,many-to-many
+CustomerUser,Chat,uses,many-to-many
+CustomerAccount,CustomerUser,has,one-to-many
+CustomerAccount,CustomerRolesAndPermissions,defines,one-to-many
+CustomerUser,CustomerRolesAndPermissions,has,one-to-many
+CustomerBU,CustomerAddress,has,one-to-many
+CustomerAccount,CustomerBU,has,one-to-many
+CustomerUser,CustomerConsent,provides,one-to-one
+CustomerUser,CustomerIdentity,identiffied by,one-to-one
+CustomerUser,Order,places,one-to-many
+Promotion,DiscountCoupon,has,one-to-many
+Order,GoodsReceiptNote,has,one-to-many
+Order,InvoiceData,has,one-to-many
+Order,InvoiceBinary,has,one-to-many
+Product,Media,has,one-to-many
+CustomerAccount,Opportunity,has,one-to-many
+CustomerUser,Message,receives,one-to-many
+MerchantAccount,Offer,provides,one-to-many
+CustomerUser,Payment,makes,one-to-many
+Order,Payment,concludes,one-to-many
+PurchaseRequest,Product,for,one-to-many
+Product,Price,has,one-to-many
+Offer,Product,for,one-to-one
+Product,Promotion,has,many-to-many
+Return,Refund,has,one-to-many
+Order,Return,can have,one-to-many
+RequestForQuote,Product,for,one-to-many
+MerchantAccount,MerchantSOH,defines,one-to-many
+MerchantSOH,Product,defines,one-to-one
+MerchantAccount,MerchantUser,has,one-to-many
+ShipToLocation,Shipment,has,one-to-many
+Product,StockOnHand,has,one-to-many
+Product,ResidualValue,can have,one-to-one
+MerchantAccount,PickupLocation,has,one-to-many
+Product,ProductionOpenSlot,has,one-to-many
+ServicePackage,Product,is instance of ,one-to-one
+ProductBundle,Product,contains,many-to-many
+Product,ProductDetails,has,one-to-one
+Offer,Price,has,one-to-one
+CustomerAccount,PurchaseRequest,sends,one-to-many
+CustomerAccount,RequestForQuote,sends,one-to-many

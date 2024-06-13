@@ -1,0 +1,255 @@
+﻿ID,Area,Feature,Description,PCB,System,Components,Default InScope
+Analytics and Reporting-Google Tag Manager and GA4,Analytics and Reporting,Google Tag Manager and GA4,"The feature enables the main user, who is typically an eCommerce business owner or marketing manager, to access comprehensive reporting for their online store. The integration allows for easy connection and customization of the solution to meet specific business requirements as they grow over time. By leveraging this analytics solution, businesses can continuously improve their platform through meaningful data analysis that is tailored to their unique model.",Custom,Frontend,2,N
+Analytics and Reporting-Dashboard,Analytics and Reporting,Dashboard,"The main user for this feature is a ecommerce manager, analyst or IT System Architect who needs to monitor the company's online sales performance. With the dashboard, they can easily view charts that display information such as the number of orders made within the last days, the statuses of existing orders, the top 10 most sold products, etc. These charts are updated in real-time as orders are processed through the Sales section, allowing for quick analysis and response to any trends or issues that arise. Overall, the dashboard feature provides a convenient and efficient way to stay informed about company's eCommerce performance.",Base,Backoffice,2,N
+Analytics and Reporting-Generic Report,Analytics and Reporting,Generic Report,"Feature allows the main user, typically an eCommerce manager or analyst, to access comprehensive reports specifically tailored to their business model. May contain filtering, sorting, export to a file etc.",Custom,Backoffice,2,N
+Analytics and Reporting-Dashboard in Merchant Portal,Analytics and Reporting,Dashboard in Merchant Portal,"The main user for this feature is a Merchant User who needs to monitor Merchant's online sales performance. With the dashboard, they can easily view charts that display information such as the number of orders made within the last days, the statuses of existing orders, the top 10 most sold products, etc. These charts are updated in real-time as orders are processed through the Sales section, allowing for quick analysis and response to any trends or issues that arise. Overall, the dashboard feature provides a convenient and efficient way to stay informed about Merchant performance.",Base,MerchantPortal,2,N
+Analytics and Reporting-Customer Experience Management,Analytics and Reporting,Customer Experience Management,Feature allows to integrate eCommerce with Customer Experience Platform,Custom,Backoffice,3,N
+Analytics and Reporting-Generic Marketplace Report,Analytics and Reporting,Generic Marketplace Report,"Feature allows Merchant User, to access comprehensive reports specifically tailored to their business model. May contain filtering, sorting, export to a file etc.",Custom,MerchantPortal,2,N
+Cart & Checkout-Cart Functionality & Calculations,Cart & Checkout,Cart Functionality & Calculations,"The feature allows both registered customers and guest users to create and manage shopping carts. It enables them to add, remove, or modify products according to their preferences before proceeding to checkout. This feature is essential for both base shops with a single seller and marketplaces with multiple sellers, as it provides flexibility in the purchasing process and allows customers to efficiently organize their orders. With this feature, users can save and edit carts, apply discounts or promotions, and view order summaries before proceeding to checkout. The shopping cart is a virtual container that holds the selected products or services a customer intends to purchase.",Base,Frontend,4,N
+Cart & Checkout-Cart page,Cart & Checkout,Cart page,"A web page where users can review and manage the items they have added to their shopping cart before proceeding to the checkout process.
+User can manage items in terms of quantity, removal, adding notes, redeem discount codes. The page contains price totals, may contain merchandizing areas like cross-selling products, related products, similar products, banners etc.",Base,Frontend,2,N
+Cart & Checkout-Multi Cart,Cart & Checkout,Multi Cart,"A feature that allows registered and logged-in users to create and manage multiple shopping carts simultaneously. This feature is designed to enhance flexibility and convenience for online shoppers, enabling them to organize and categorize items they intend to purchase in different ways.
+Possible actions to manage shopping carts are: edit name, duplicate, share, dismiss, delete, switch cart to the Shopping List.",B2B,Frontend,2,N
+Cart & Checkout-Persistent Cart Sharing,Cart & Checkout,Persistent Cart Sharing,"The Persistent Cart Sharing feature lets Company Users generate the URL to share the cart with different access levels.
+Customers can share a Cart with users in their department or a lower ranking Business Unit.",B2B,Frontend,1,N
+Cart & Checkout-Quick Add to Cart,Cart & Checkout,Quick Add to Cart,"The feature lets customers find and buy products in few clicks. Instead of going to each product page individually, they can go to the Quick Add to Cart page, accessible directly from the header, and quickly order items by typing the product’s SKU and its quantity in respective fields. At the same time, if some specific quantity restrictions apply to products, they will also be taken into account when ordering through the Quick Add to Cart page. ",B2B,Frontend,2,N
+Cart & Checkout-Download cart items,Cart & Checkout,Download cart items,A feture allowing customer to download a list of cart items in a form of a CSV or Excell file. This can usually be done on the Cart page. ,Custom,Frontend,2,N
+Cart & Checkout-Checkout step - customer,Cart & Checkout,Checkout step - customer,"A checkout step, usually first, where customer chooses wether he wants to Login, Register or Checkout as a guest. ",Base,Frontend,2,N
+Cart & Checkout-Checkout step - delivery & billing addresses,Cart & Checkout,Checkout step - delivery & billing addresses,"The address step is the step where the customer fills billing and shipping addresses.This step lets the returning customers select one of the existing addresses or create a new one. A new address will be created only if the ""Save new address to address book"" checkbox is selected. Otherwise, it is saved in the order but is not stored in the database. This allows a customer to skip the new address saving if they want to. New and guest customers can only create a new address. If a new address is selected, it’s only created when the order is placed, and the OrderCustomerSavePlugin plugin is enabled.",Base,Frontend,2,N
+Cart & Checkout-Checkout step - shipment,Cart & Checkout,Checkout step - shipment,The step gathers shipment method and delivery time information and store it in the quote. This step requires additional configuration because different shipment providers and different ways forms must be handled for each. ,Base,Frontend,3,N
+Cart & Checkout-Checkout step - split delivery,Cart & Checkout,Checkout step - split delivery,"The functionality allows for the placement of a single order that can be shipped to multiple delivery addresses, scheduled for different dates, or utilizing various shipment methods. A shipment is defined as a grouping of two or more products bound for the same delivery address.",Marketplace,Frontend,2,N
+Cart & Checkout-Checkout step - payment,Cart & Checkout,Checkout step - payment,Allow user to choose payment method from a predefined set. This step requires additional configuration because different shipment providers and different ways forms must be handled for each. ,Base,Frontend,2,N
+Cart & Checkout-Checkout step - summary,Cart & Checkout,Checkout step - summary,"The step displays order information about the item to be placed, addresses, shipping, payment details, and order totals.
+Customers may review the items in their shopping cart, ensuring that the selected products, quantities, and attributes (such as size or color) are accurate.",Base,Frontend,2,N
+Cart & Checkout-Checkout step - place order,Cart & Checkout,Checkout step - place order,"The step finalizes the transaction and initiates the process of fulfilling the customer's order. It represents the point at which the customer commits to the purchase, and the business captures the necessary information to fulfill the order and provide a seamless post-purchase experience. ",Base,Frontend,3,N
+Cart & Checkout-Checkout step - success,Cart & Checkout,Checkout step - success,"After successfully placing the order, customers receive an order confirmation page or email that includes order details, a unique order number, and an estimated delivery date.",Base,Frontend,2,N
+Cart & Checkout-Order thresholds,Cart & Checkout,Order thresholds,"Order thresholds let you control the values of the orders that your customers place. You can define a maximum or minimum monetary value for customers to reach to place an order. Apart from just disallowing a customer to place an order if a threshold condition is not fulfilled, you can request them to pay different types of fees.",Base,Backoffice,1,N
+Cart & Checkout-Non-splittable Products,Cart & Checkout,Non-splittable Products,"A feature allowing shop owners want their customers to buy less or more of specific products. For example, when selling to bulk buyers at wholesale prices or when running promotional campaigns and creating special offers, you might want not to allow buying less than a certain quantity. Also, for some products, it might be more convenient to sell particular quantities that are, for example, multiples of a specific number.",Base,Backoffice,1,N
+Cart & Checkout-Approval Process,Cart & Checkout,Approval Process,"The feature lets B2B customers have multiple people contributing to the ordering process but requires the manager’s approval to proceed with the checkout. Permissions related to the approval process are configured based on the restrictions applied to a company role. Generally, the approval process is initiated when the cart total exceeds a certain amount set in the Buy up to grand total permissions. ",B2B,Frontend,2,N
+Cart & Checkout-Comments Widget,Cart & Checkout,Comments Widget,"With the flexible Comments Widget you are free to decide where in your web shop comments should be allowed.
+The comment contains the following information: Company user’s name, Date when the comment was left, Contents of the comment, Comment Tag.
+Company users can add comments to a shared cart with both Read-only and Full Access permissions. A user can also add a comment before submitting the order on the Checkout Summary page, as well as post factum after the order has been placed on the Order History page. When the order with the attached comments is placed, the Back Office user can view it with the comments in the Orders section of the Back Office.",Base,Frontend,1,N
+Cart & Checkout-Custom Order Reference,Cart & Checkout,Custom Order Reference,"Custom Order Reference allows B2B customers to add a reference e.g. to an external system order to ecommerce order.
+The feature helps control purchases and link the internal orders to external systems from company using external order reference. With the feature in place, you can add a custom order reference, such as an invoice, to the order e.g. on Yves.
+Custom order references are available only for logged-in users.",B2B,Frontend,2,N
+Cart & Checkout-One page checkout,Cart & Checkout,One page checkout,"A streamlined and condensed checkout process that consolidates all the essential steps and information needed to complete a purchase onto a single webpage. Unlike traditional multi-step checkout processes, where users navigate through multiple pages to provide shipping information, payment details, and confirm their order, a one-page checkout aims to simplify and expedite the entire process.",Custom,Frontend,1,N
+CMS-Navigation,CMS,Navigation,"A navigation element is a page section that contains links to shop resources, as well as external resources.
+Tree structure to support multiple levels of linking to a range of sources. 
+This enables main users, such as marketing professionals or content creators, to effectively manage and present the necessary information to customers on all pages of their online store, improving overall user experience. Additionally, this feature is important for marketplaces as it allows for consistent navigation and organization across multiple sellers' stores within the platform.",Base,Frontend,2,N
+CMS-Product Sets,CMS,Product Sets,"The Product Sets feature lets you create and sell collections of products. For example, you can create a stationary workspace set, a set of clothing or accessories, or furniture for a specific room. It allows build a collection of items based on relations or recommendations. When browsing a product set, a Storefront user can select variants per product in a set, add an individual or all products from the set to cart. Back office users can also utilize this feature by adding product sets to pages and blocks within the system. This simplifies the shopping experience for customers and makes it easier for them to find and purchase specific variations of products.",Base,Backoffice,2,N
+CMS-URL Redirects,CMS,URL Redirects,"With the URL redirects, you can create content redirects and increase your store’s search engine visibility. Redirects can be store-internal or external and can reflect various HTTP status codes that play a major role in search engine ranking. Besides, redirects for the changed product, CMS pages, categories URLs are auto-generated. A URL redirect is a special entity that consists of a source URL, a target URL, and an HTTP status code stored in the database table.",Base,Backoffice,2,N
+CMS-CMS Templates & Slots,CMS,CMS Templates & Slots,"Templates and Slots lets content managers effectively and coherently interact with content using a dedicated template in Spryker—a template with slots. In the Back Office, a content manager has access to all the Storefront pages and can easily embed content into them. The embedded content is rendered by the Slot Widget.",Base,Backoffice,2,N
+CMS-CMS Blocks,CMS,CMS Blocks,"The feature allows content managers to easily add and customize reusable content, such as banners or SEO text, to multiple pages and templates within the Content Management System (CMS). This functionality empowers main users, who are typically content managers, to effectively manage and organize content on all pages of their shop, without the need for excessive manual updates. Additionally, this feature is essential for marketplaces as it enables them to efficiently manage a large volume of content for multiple sellers.",Base,Backoffice,2,N
+CMS-CMS Pages / Landing Pages,CMS,CMS Pages / Landing Pages,"The feature allows the main user, typically an administrative or marketing staff member, to easily create and edit HTML pages using a WYSIWYG editor within the Back Office. This feature includes page templating for consistent branding, validity period settings to control when the page will be active or inactive, store relation options to specify which stores the page is applicable to, and content widgets that can be added and customized. By utilizing these features, the main user has the ability to effectively manage and update website content without requiring technical expertise in web development.",Base,Backoffice,3,N
+CMS-Content Creation Workflows/Approvals ,CMS,Content Creation Workflows/Approvals ,"The feature supports a processes implemented for creating, managing, and approving content within an online environment. This encompasses the development and publication of various types of content, such as product descriptions, images, videos, blog posts, marketing materials, and other assets that contribute to the overall online presence of the e-commerce store.",Custom,Backoffice,2,N
+CMS-Content Item,CMS,Content Item,"The Content Items feature lets admins create and preserve small content pieces. Later, they are inserted into CMS blocks and, subsequently, into Storefront pages. Content items are rendered on Storefront using Content Item Widget.
+Implementing effective workflows and approval processes for content creation in e-commerce is essential for maintaining consistency, quality, and brand integrity. It helps ensure that the content presented to customers is accurate, compelling, and aligned with the overall marketing strategy. Additionally, these processes contribute to efficient collaboration among team members involv",Base,Backoffice,2,N
+CMS-Homepage restyling,CMS,Homepage restyling,"Homepage restyling assumes leaving overall layout as is but includes styling changes in terms of adaptations of: colors, font , header, footer, top navigation, marketing areas (banners, cms blocks, some product lists)",Custom,Frontend,1,N
+CMS-Banner,CMS,Banner,,Base,Frontend,1,Y
+CMS-Footer,CMS,Footer,,Base,Frontend,6,Y
+CMS-Header,CMS,Header,,Base,Frontend,1,Y
+CMS-Breadcrumbs,CMS,Breadcrumbs,,Base,Frontend,1,Y
+Customer-Business on Behalf,Customer,Business on Behalf,The Business on Behalf feature lets you have multiple Company Users per Customer Account with the possibility to assign one Company User to be a default user. This default user can switch between the assigned business units,B2B,Frontend,1,N
+Customer-Case Management/Ticketing Visibility,Customer,Case Management/Ticketing Visibility,CRM integration for Case Management/Ticketing Visibility,Custom,Backoffice,7,N
+Customer-Case Management/Ticketing Visibility widget,Customer,Case Management/Ticketing Visibility widget,Case Management/Ticketing Visibility widget,Custom,Frontend,1,N
+Customer-Company Account,Customer,Company Account,"On the Company Account page, the user has a clear overview of their business' structure, hierarchy, shipping and billing addresses, other users in their Business Unit",B2B,Frontend,11,Y
+Customer-Company User Roles and Permissions,Customer,Company User Roles and Permissions,Management of roles and permissions per Company,B2B,Backoffice,3,Y
+"Customer-Cookie Notice, Terms, Privacy Compliance",Customer,"Cookie Notice, Terms, Privacy Compliance","Ability to handle cookie notices and privacy complianace. 
+Integrate with OneTrust via Google Tag Manager",Custom,Frontend,2,Y
+Customer-Customer Access,Customer,Customer Access,"Customer Access lets store administrators define whether certain information is visible to logged-out users: price, order-place-submit, add-to-cart,wishlist, shopping-list",Base,Frontend,1,Y
+Customer-Customer Accounts,Customer,Customer Accounts,"This feature enables customers to easily view, edit, and add contact details, addresses, and notes related to their accounts. Additionally, they can manage their preferred language and shipping options for a more personalized shopping experience. This functionality provides convenience and efficiency for our customers in managing their account information directly on the Storefront, without the need for additional administrative actions outside of the platform.
+The feature covers: Contact details, Addresses and Order history.",Base,Frontend,3,Y
+Customer-Customer Groups,Customer,Customer Groups,Customer Groups used to organize customers into groups to help you target users for discounts and promotions.,Base,Backoffice,2,Y
+Customer-Customer Login,Customer,Customer Login,"The feature with an secure password policy prevents brute-force.
+Block a Storefront user account for some time after a certain number of login attempts.
+Enforce the use of strong passwords by defining requirements for a password.",Base,Frontend,4,Y
+Customer-Customer impersonation,Customer,Customer impersonation,This feature allows to login as specific customer by admin/internal user,Base,Backoffice,1,N
+Customer-Customer Registration,Customer,Customer Registration,"Customer registration is done by double opt-in. A double opt-in occurs when a user signs up, and an email with a registration confirmation link is sent to them. After they click the verification link, their account is activated.
+Registration via checkout is available.",Base,Frontend,2,Y
+Customer-My Profile. Order list and details.,Customer,My Profile. Order list and details.,My Profile. Order list and details.,Base,Frontend,3,Y
+Customer-Newsletter Subscription,Customer,Newsletter Subscription,"Offer Newsletter Subscriptions, included opt-in, opt-out options",Base,Frontend,1,N
+Customer-Opportunity tracking,Customer,Opportunity tracking,Pre-order placement tracking of opportunities,,,2,N
+Customer-Registration of new Company,Customer,Registration of new Company,new customers can register their company through a self-service registration form in your B2B online shop,B2B,Frontend,2,Y
+CMS-Documentation Manager,CMS,Documentation Manager,,Custom,Frontend,0,N
+CMS-File Manager,CMS,File Manager,The File Manager feature lets you upload and manage your assets (media files) effectively,Base,Backoffice,2,N
+Data Exchange-AdminUser integration,Data Exchange,AdminUser integration,Integration Client's ERP system,,eCommerce,1,N
+Data Exchange-Case management integration,Data Exchange,Case management integration,Integrate SFDC Web to Cases to eCom fronend and agent chat,,Frontend,2,N
+Data Exchange-Category integration,Data Exchange,Category integration,Integration Client's ERP system,,eCommerce,3,N
+Data Exchange-Company & Business Units integration,Data Exchange,Company & Business Units integration,"Sourcing business unit data from master system to create hierarchy of Business Units (under a Company).
+One way integration with Client's CRM system.",Custom,eCommerce,18,N
+Data Exchange-Company Address integration,Data Exchange,Company Address integration,"Sourcing company address data to create company addresses and it's relations with Business Units
+One way integration with Client's CRM system.",Custom,eCommerce,0,N
+Data Exchange-Company User integration,Data Exchange,Company User integration,"Sourcing customer and business related data to create/update Company User and relations with Business Units and Roles.
+One way integration with Client's CRM system.",Custom,eCommerce,6,N
+Data Exchange-Customer Account integration,Data Exchange,Customer Account integration,"Sourcing customer data to create regular Customer Account.
+Integration Client's CRM system",Custom,eCommerce,0,N
+Data Exchange-Goods Received Notice integration,Data Exchange,Goods Received Notice integration,Integration Client's P2P system,,eCommerce,2,N
+Data Exchange-Inventory (SOH) integration,Data Exchange,Inventory (SOH) integration,Integration Client's system,,eCommerce,7,N
+Data Exchange-InvoiceData  integration,Data Exchange,InvoiceData  integration,Integration Client's P2P system,,eCommerce,5,N
+Data Exchange-Merchant Account integration,Data Exchange,Merchant Account integration,"Sourcing seller data to create/update Merchant Account.
+One way integration with Client's CRM system.",Custom,eCommerce,7,N
+Data Exchange-Merchant User integration,Data Exchange,Merchant User integration,"Sourcing seller users data to create/update Merchant Users.
+One way integration with Client's CRM system.",Custom,eCommerce,2,N
+Data Exchange-Message integration,Data Exchange,Message integration,Integration Client's P2P system,,eCommerce,1,N
+Data Exchange-Offers integration,Data Exchange,Offers integration,Merchants can use a Data Importer to easily set up bulk Product Offers,,MerchantPortal,1,N
+Data Exchange-Order integration,Data Exchange,Order integration,Order integration,,eCommerce,11,N
+Data Exchange-Product integration,Data Exchange,Product integration,Integration Client's ERP system,,eCommerce,7,N
+Data Exchange-Pricing  integration,Data Exchange,Pricing  integration,Integration Client's system,,eCommerce,11,N
+Data Exchange-Shipment integration,Data Exchange,Shipment integration,Integration Client's P2P system,,eCommerce,2,N
+Data Exchange-Refound integration,Data Exchange,Refound integration,,,,2,N
+Data Exchange-Payment integration,Data Exchange,Payment integration,,,,1,N
+Data Exchange-OpenSlot integration,Data Exchange,OpenSlot integration,,,,1,N
+Data Exchange-Parts Customer integration,Data Exchange,Parts Customer integration,,,,12,N
+Data Exchange-Parts Parts integration,Data Exchange,Parts Parts integration,,,,10,N
+Data Exchange-Parts Stock integration,Data Exchange,Parts Stock integration,,,,5,N
+Data Exchange-Parts Order integration (bidirectional),Data Exchange,Parts Order integration (bidirectional),,,,2,N
+Data Exchange-Serial Number Lookup,Data Exchange,Serial Number Lookup,Integaration of Serial Number to BOM,,,3,N
+Data Exchange-WebConfig,Data Exchange,WebConfig,Integration with ABB WebConfig,Custom,eCommerce,4,N
+Discount-Promotions & Discounts,Discount,Promotions & Discounts,"The Discount Management feature lets shop owners provide free value to their customers by discounting the percentage or fixed sum of an order’s subtotal, or an item’s price on predefined conditions.",Base,Backoffice,4,N
+Discount-Vouchers,Discount,Vouchers,A voucher is a discount that applies when a customer enters an active voucher code on the Cart page.,Base,Backoffice,2,N
+Discount-Vouchers - export,Discount,Vouchers - export,Downloading a CSV file with the codes from Backoffice.,Base,Backoffice,2,N
+Discount-Vouchers - import,Discount,Vouchers - import,Import a CSV file with codes with reference to a Discount from Backoffice,Custom,Backoffice,2,N
+Discount-Cart rule,Discount,Cart rule,A cart rule is a discount that applies to a cart once all the decision rules linked to the cart rule are fulfilled.,Base,Backoffice,2,N
+Discount-Discounts based on shipment,Discount,Discounts based on shipment,"Activate a discount rule based on a shipment carrier, a shipment method, or a shipment price.
+Based on custom shipment pre-check plugin to checkout.",Custom,Backoffice,1,N
+IAM-SSO for Administrators,IAM,SSO for Administrators,Allowing users to log in to the Spryker Back Office with their Identity Access Manager credentials (OOTB integration with the MS Azure Active Directory),Base,Backoffice,2,N
+IAM-Backend administrator user and roles setup,IAM,Backend administrator user and roles setup,Configuration of backend roles permitions and administrator accounts,Base,Backoffice,1,Y
+IAM-SSO for Customers,IAM,SSO for Customers,Allowing customers to log in with Auth0 based authentication,Asset,Frontend,2,N
+IAM-SSO for Merchants,IAM,SSO for Merchants,Allowing customers to log in with Auth0 based authentication,Custom,MerchantPortal,1,N
+Inventory-Warehouse Management,Inventory,Warehouse Management,"Configure/import (from CSV) warehouses and assing them to store or storesin the Back Office.
+Ability to define warehouse address that will be used as the shipping origin address by importing the warehouse address data.
+Covers Merchant Warehauses from Marketplace PCB.",Base,Backoffice,2,N
+Inventory-Stock and Availability management,Inventory,Stock and Availability management,"OOTB behaviour is when the order is made, the stock is not updated automatically in the system, this may be done manually or via customisation.
+OOTB availability driven by OMS.
+Covers Merchant Warehauses from Marketplace PCB.",Base,Backoffice,3,N
+Inventory-Merchant Product Offers,Inventory,Merchant Product Offers,Merchant Offers help avoid confusing duplications of products in the Marketplace,Custom,MerchantPortal,1,N
+Inventory-Availability Notification,Inventory,Availability Notification,Allow customers to opt-in for automated notifications when any unavailable product becomes available again.,Base,Frontend,2,N
+Data Exchange-LiveChat for customers,Data Exchange,LiveChat for customers,Integration with 3rd party LiveChat,Custom,Frontend,2,N
+Localisation & Translation-Glossary Management,Localisation & Translation,Glossary Management,Store and manage basic text information in a variety languages,Base,Backoffice,1,N
+Localisation & Translation-Back Office Translations,Localisation & Translation,Back Office Translations,The Back Office Translations feature introduces a way to translate the Administration interface (Zed) into different languages,Base,Backoffice,1,N
+Localisation & Translation-Storefront Translations,Localisation & Translation,Storefront Translations,Translations of content visible on Storefront,Base,Frontend,2,N
+Merchant-Merchant Management,Merchant,Merchant Management,"The Operator can create, edit, and approve Merchants and Merchant Users, allowing them access to the Merchant Portal.",Marketplace,Backoffice,5,N
+Merchant-Merchant Portal,Merchant,Merchant Portal,"The Marketplace Merchant Portal Core enables server configuration and basic functions of the Merchant Portal application, such as secure login, GUI tables, and dashboards. ",Marketplace,MerchantPortal,2,N
+Merchant-Merchant Portal Login,Merchant,Merchant Portal Login,Ability for Merchant users to login into Merchant Portal. Inbuild authorisation.,Marketplace,MerchantPortal,2,N
+Merchant-Merchant Profile,Merchant,Merchant Profile,Ability for Merchant to create and edit the information on himself that is being displayed on the Merchant profile page to customers.,Marketplace,MerchantPortal,3,N
+Merchant-Merchant Category,Merchant,Merchant Category,Ability to introduce convenient way to find the necessary and relevant merchants and their products according to certain merchant categories.,Marketplace,Backoffice,1,N
+Merchant-Merchant Product Restrictions,Merchant,Merchant Product Restrictions,"The Product Restrictions feature lets merchants define the products that are available to each of their B2B customers.
+List of products is crated in Backoffice, not Merchant Portal, or imported via CSV.",B2B,Backoffice,2,N
+Merchant-Merchant Product Offers,Merchant,Merchant Product Offers,"The Product Offer entity is created when multiple merchants need to sell the same product on the Marketplace.
+Marketplace administrators can view and approve or deny merchants’ product offers in the Back Office.",Marketplace,MerchantPortal,2,N
+Merchant-Store locator,Merchant,Store locator,Store locator,Custom,Frontend,2,N
+Notifications-Email notifications,Notifications,Email notifications,"Automated emails related to customer and transactional operations (order status, shipping etc).",Base,Backoffice,1,N
+Notifications-SMS notifications,Notifications,SMS notifications,Integration with external service for SMS handling,Custom,eCommerce,2,N
+Notifications-Receipient integration with Salesforce,Notifications,Receipient integration with Salesforce,Receipient integration with Salesforce,Custom,eCommerce,1,N
+Order-State Machine Modelling,Order,State Machine Modelling,"The State Machine allows to implement processes and map out business workflows, model the order process with states and transitions.",Base,Backoffice,1,N
+Order-Order Management,Order,Order Management,Manually manage orders (also create) via Back Office,Base,Backoffice,2,N
+Order-Invoice Generation,Order,Invoice Generation,An automated Invoice Generator sends out order invoices to customers via email.,Base,Backoffice,1,N
+Order-Order Cancellation,Order,Order Cancellation,Ability to cancel an order by customer and in Back Office. Integrated with State Machine.,Base,Frontend,2,N
+Order-Order Split for multiple ERP,Order,Order Split for multiple ERP,Order Split for multiple ERP,Custom,Backoffice,2,N
+Order-Splittable Order Items,Order,Splittable Order Items,"Ability configure if purchased items are to be splitted or not.
+As a final step of checkout, for each item in the cart, sales order items are created. By default, each product concrete is splittable. ",Base,Backoffice,1,N
+Order-Packing Slip for Merchant,Order,Packing Slip for Merchant,Packing Slip,Custom,Frontend,2,N
+Order-Packing Slip Download for Merchant,Order,Packing Slip Download for Merchant,Packing Slip Download,Custom,Frontend,2,N
+Order-Merchant Orders Management,Order,Merchant Orders Management,The Operator can view and manage general Marketplace and specific Merchant orders,Marketplace,MerchantPortal,2,N
+Order-Reclamations Management in Backoffice,Order,Reclamations Management in Backoffice,"The Reclamations feature provides a way for administrators to handle all the customer order claims. The shop administrators can create, view, and edit the reclamations in the dedicated section of the Administration Interface.
+Reclamation management not available in Merchant Portal.",Base,Backoffice,2,N
+Order-Refunds,Order,Refunds,"Refunds handled automatically in the Back Office once the order has been delivered. Your customers can return the entire order or parts thereof by means of the order splitting mechanism. Every order contains information about the total possible refund value and how much has already been refunded.
+Refunds management not available in Merchant Portal.",Base,Backoffice,2,N
+Order-Return Management,Order,Return Management,"The Return Management capability lets you create and manage returns for sales orders.
+The capability consists of a base shop and the marketplace addon",Base,Frontend,4,N
+Order-Annual Returns for Backoffice,Order,Annual Returns for Backoffice,Annual Returns for Backoffice,Custom,Backoffice,2,N
+Order-Annual Returns. Create and Status,Order,Annual Returns. Create and Status,Annual Returns. Create and Status,Custom,Frontend,2,N
+Order-Annual Returns. Download,Order,Annual Returns. Download,Annual Returns. Download,Custom,Frontend,2,N
+Order-Annual Returns. Credit Memo,Order,Annual Returns. Credit Memo,Annual Returns. Credit Memo,Custom,Frontend,2,N
+Order-Annual Returns. Approval,Order,Annual Returns. Approval,Annual Returns. Approval,Custom,Frontend,2,N
+Order-Order documents,Order,Order documents,"Ability to access order related documents like invoices, leasing details etc.",,,2,N
+Product-Category Management,Product,Category Management,Manage product catalog with customized categories and category pages to easily track and sort your items.,Base,Backoffice,3,Y
+Product-Category Pages. PLP.,Product,Category Pages. PLP.,add multiple top and sub- category grid overview pages before drilling down to the product level,Base,Frontend,2,Y
+Product-Product Abstraction,Product,Product Abstraction,Build a product hierarchy structure with Abstract and Concrete Products,Base,Backoffice,2,Y
+Product-Product Attributes,Product,Product Attributes,All products can be assigned a multitude of attributes to simplify the filter and category functions,Base,Backoffice,2,Y
+Product-Product Images,Product,Product Images,The feature lets you group several images into sets and link them to products. One product can have several named and localized sets of images,Base,Backoffice,2,Y
+Product-Discontinued products,Product,Discontinued products,Ability to mark a concrete product as a discontinued product. Discontinued is a product which is no longer produced by its manufacturer. The product may have positive or negative stock.,Base,Backoffice,2,N
+Product-Timed Product Availability,Product,Timed Product Availability,"Timed concrete product availability, or product TTL (Time to Live) lets you define when your products are available online and when they are not. ",Base,Backoffice,2,N
+Product-Downloadable/virtual products,Product,Downloadable/virtual products,Non-physical product support,Custom,Backoffice,1,N
+Product-Alternative Products,Product,Alternative Products,"Ability to suggesting product alternatives to support browsing through catalog. Product alternatives let customers jump from one product page to the next until they find a relevant item.
+On the product details page of a product that’s a product alternative for another product, you can see a Replacement for.",Base,Backoffice,2,N
+Product-Configurable Bundle,Product,Configurable Bundle,"A configurable bundle is a product bundle for which a Storefront User selects products on the Storefront. For example, when buying a kitchen set, a customer selects pieces of furniture, like drawers, cupboards, or cabinets, from suggested options.",Base,Backoffice,2,N
+Product-Configurable Product,Product,Configurable Product,"The Configurable Product feature introduces a new type of product, a configurable product, that customers can customize.",Base,Backoffice,1,N
+Product-Product Barcode,Product,Product Barcode,"The Product Barcode feature lets you create barcodes for any kind of entity. By default, barcodes are only generated for products.",Base,Backoffice,2,N
+Product-Product Groups,Product,Product Groups,"The Product Groups feature lets product catalog managers group products by attributes, like color or size. A typical use case is combining the same product in different colors into a product group (not to be confused with product variant).",Base,Backoffice,1,N
+Product-Product Bundles,Product,Product Bundles,"With the Product Bundles feature you can tie individual items together and sell them as a package. As opposed to a set, in which products are loosely grouped, the items in a bundle are always sold together.",Base,Backoffice,3,N
+Product-Product Labels,Product,Product Labels,The Product Label feature lets product catalog managers highlight the needed products by adding a special type of information—product labels.,Base,Backoffice,2,N
+Product-Product Lists,Product,Product Lists,The Product Lists feature lets you configure product availability for specific companies by adding their products to an excludelist or allowlist. ,B2B,Backoffice,2,N
+Product-Product Options,Product,Product Options,The Product Options feature lets a Back Office user create and assign product options to abstract products. Product options are product additions that a customer can select on the product detail page before adding the product to the cart.,Base,Backoffice,2,N
+Product-Merchant Product Approval Process,Product,Merchant Product Approval Process,The Operator can approve Merchant Products to control their product offerings,Marketplace,Backoffice,2,N
+Product-Product Relations,Product,Product Relations,Define a list of items that will be displayed as comparable or additional products. ,Base,Backoffice,5,N
+Product-Product Compare,Product,Product Compare,Ability to compare products,Base,Backoffice,1,N
+Product-Ratings & Reviews,Product,Ratings & Reviews,Ability for  customers to add star ratings for products and optionally add a comment through a freetext function,Base,Frontend,2,N
+Product-Gift Card,Product,Gift Card,"The Gift Cards capability lets you create a special product type with a chosen value amount. The purchase of a gift card generates an individual code that can then be used as a payment method during checkout.
+When paying for orders with a gift card, the gift cards are considered as an additional payment method.",Base,Frontend,2,N
+Product-Literature Library,Product,Literature Library,Literature Library,Custom,eCommerce,3,N
+Product-Product detail page,Product,Product detail page,Product detail page,Base,Frontend,17,N
+Product-Product details integration from CWC,Product,Product details integration from CWC,"If only pre-definded product bundles should be sold, Product references need to be manually uploaded to eComm. CWC is display only for configuration details",,,2,N
+Price -Net & Gross Price Mode,Price ,Net & Gross Price Mode,manage and define prices,Base,Backoffice,3,N
+Price -Volume Prices,Price ,Volume Prices,define individual prices for different order quantities of a product,Base,Backoffice,2,N
+Price -Customer Specific Prices,Price ,Customer Specific Prices,B2B solution. Offer specific prices to different customers,B2B,Backoffice,2,N
+Price -Scheduled Prices,Price ,Scheduled Prices,manage sales and promotion campaigns by scheduling all planned price changes,Base,Backoffice,2,N
+Price -Merchant Custom Prices,Price ,Merchant Custom Prices,"In B2B commerce transactions, prices are typically negotiated in contracts. Therefore, merchants and their clients, who are usually company business units, expect to see their own prices in the shop.",Marketplace,Backoffice,1,N
+Price -Vehicle residual value,Price ,Vehicle residual value,Resitual value integration and presenation on checkout pages,,,8,N
+Order-Reorder,Order,Reorder,Customers can go to the Order History page in their Customer Account and reorder either the entire order or individual items from it.,Base,Frontend,2,N
+Payment-Payment Method,Payment,Payment Method,All orders can be paid with one or multiple payment methods which the customer can select during checkout.,Base,Backoffice,1,N
+Payment-Payment Service Provider Integration,Payment,Payment Service Provider Integration,Spryker offers integrations with several payment providers,Custom,Backoffice,1,N
+PublicAPI-API: Place Order,PublicAPI,API: Place Order,API: Place Order,Custom,APIGateway,1,N
+PublicAPI-API: Order Status,PublicAPI,API: Order Status,API: Order Status,Custom,APIGateway,1,N
+PublicAPI-API: Pricing,PublicAPI,API: Pricing,API: Pricing,Custom,APIGateway,1,N
+PublicAPI-API: Deep Linking,PublicAPI,API: Deep Linking,API: Deep Linking,Custom,APIGateway,1,N
+PublicAPI-API: Part Details,PublicAPI,API: Part Details,API: Part Details,Custom,APIGateway,1,N
+PublicAPI-API: Part Search By Application,PublicAPI,API: Part Search By Application,API: Part Search By Application,Custom,APIGateway,1,N
+PublicAPI-API: ProConnectExchange,PublicAPI,API: ProConnectExchange,API: ProConnectExchange,Custom,APIGateway,1,N
+PublicAPI-API: Advanced Shipping Notification,PublicAPI,API: Advanced Shipping Notification,API: Advanced Shipping Notification,Custom,APIGateway,1,N
+PublicAPI-API: Availability,PublicAPI,API: Availability,API: Availability,Custom,APIGateway,1,N
+PublicAPI-API management,PublicAPI,API management,"Provide public API to operate several entities, acitivity logging, access control.",Custom,APIGateway,0,N
+RFQ-Quotation & Offer Management,RFQ,Quotation & Offer Management,"With the Quotation Process feature, the B2B customers can ask for special prices, and suppliers can get back to them with a compromise pricing suggestion.",B2B,Frontend,4,N
+RFQ-Marketplace distributor RFQ,RFQ,Marketplace distributor RFQ,Price quote is requested from platform distributors not platform owner itself. ,Custom,Frontend,4,N
+RFQ-Marketplace distributor RFQ for Backoffice,RFQ,Marketplace distributor RFQ for Backoffice,Ability to see activity related to RFQ,Custom,Backoffice,2,N
+Search-Full-site Search,Search,Full-site Search,"Search products by their atrributes, categories and CMS pages",Base,Frontend,3,N
+Search-Search Preferences,Search,Search Preferences,"Search Preferences; include in Full Text Search/suggestions/completion, Boost",Base,Backoffice,1,N
+Search-Faced filters,Search,Faced filters,Different filter types,Base,Frontend,2,N
+Search-Search within facet filter,Search,Search within facet filter,Manage faced filters to to narrow down search results,Base,Frontend,1,N
+Search-Year make model,Search,Year make model,Year make model search component. Automotive specific.,Custom,Frontend,1,N
+Search-Find End Yoke,Search,Find End Yoke,Find End Yoke search component. Automotive specific.,Custom,Frontend,1,N
+Search-Application/Fitmnet,Search,Application/Fitmnet,Search by application. Automotive specitic.,Custom,Frontend,1,N
+Search-Visual Search,Search,Visual Search,Visual Search,Custom,Frontend,1,N
+SEO-SEO for products,SEO,SEO for products,"SEO for products. Metatags, breadcrumbs, headers",Base,Frontend,2,N
+SEO-SEO for catalog,SEO,SEO for catalog,"SEO for category pages. Metatags, breadcrumbs, headers",Custom,Frontend,2,N
+SEO-Sitemap,SEO,Sitemap,Dedicated documented acting as sitemap,Custom,Backoffice,1,N
+"Setup-Store, region, locales creation",Setup,"Store, region, locales creation","Store, region, locales creation",Asset,eCommerce,1,N
+"Setup-Setup of local environment, DevOps with Spryker Cloud",Setup,"Setup of local environment, DevOps with Spryker Cloud","Setup of local environment, DevOps with Spryker Cloud",Asset,eCommerce,1,N
+Shipment-Shipment Carriers & Methods management,Shipment,Shipment Carriers & Methods management,"Manual management of shipping methods; activeness, price and tax, store relation",Base,Backoffice,2,N
+Shipment-Custom availability,Shipment,Custom availability,Business logic which controls availability of delivery method in a form of plugin class,Base,Backoffice,1,N
+Shipment-Custom price calculation,Shipment,Custom price calculation,Business logic which controls price calculation of delivery method in a form of plugin class,Base,Backoffice,1,N
+Shipment-Custom delivery time calculation,Shipment,Custom delivery time calculation,Business logic which controls delivery time calculation of delivery method in a form of plugin class,Base,Backoffice,1,N
+Shipment-Tracking code,Shipment,Tracking code,Save tracking codes per shipment,Custom,Backoffice,2,N
+Shipment-Ship To location import,Shipment,Ship To location import,Integration of ship to location to be presented during checkout,,,1,N
+Shopping List & Wish List-Shopping List Management,Shopping List & Wish List,Shopping List Management,coordinate orders with the Shopping List feature,Base,Frontend,1,N
+Shopping List & Wish List-Permission Management for Shopping Lists,Shopping List & Wish List,Permission Management for Shopping Lists,"Roles and Permissions for Shopping List users. By default, there are two Roles: read-only and full access",Base,Backoffice,1,N
+Shopping List & Wish List-Wish List,Shopping List & Wish List,Wish List,"customers track and save items for later purchase through multiple Wish Lists, which are connected to user accounts",Base,Frontend,2,N
+Tax-Manage Tax Rates & Sets,Tax,Manage Tax Rates & Sets,The Tax feature lets you define taxes for the items. The feature is represented by two entities: tax rates and tax sets.,Base,Backoffice,2,N
+Tax-Avalara Integration,Tax,Avalara Integration,validate both customer and warehouse addresses to improve the rate of accuracy when calculating sales tax during the checkout process,Base,Backoffice,1,N
+Data Exchange-Cinovo integrations,Data Exchange,Cinovo integrations,,Custom,Backoffice,0,N
+Data Exchange-Case/Tech Support,Data Exchange,Case/Tech Support,Integration with 3rd party Case/Tech Support,Custom,Frontend,6,N
+Data Exchange-Documentation Integration,Data Exchange,Documentation Integration,,,Frontend,1,
+Customer-ABB Item,Customer,ABB Item,,Custom,Frontend,4,N
+Shipment-Shipment,Shipment,Shipment,,Base,Frontend,2,Y
+Customer-Company Login,Customer,Company Login,,Base,Frontend,3,N
+CMS-Page with form,CMS,Page with form,,Custom,Frontend,2,N
+Product-Guided Selling,Product,Guided Selling,Guided selling mechanism,Custom,Frontend,5,N
+Customer-Installed Bases,Customer,Installed Bases,Installed Bases,Custom,Frontend,6,N
+Customer-Service Agreements,Customer,Service Agreements,,Custom,Frontend,8,N
+Product-Marketplace,Product,Marketplace,ABB Marketplace,Custom,Frontend,2,N
+Customer-Third Party Delegations,Customer,Third Party Delegations,,Custom,Frontend,2,N
+Search-DocumentationSearch,Search,DocumentationSearch,,Custom,Frontend,3,N
+CMS-About Us,CMS,About Us,,Base,Frontend,2,Y
+CMS-Footer,CMS,Footer,,Custom,Frontend,6,Y
+DAM-Resources,DAM,Resources,,Custom,Frontend,6,N
+DAM-Applications,DAM,Applications,,Custom,Frontend,2,N

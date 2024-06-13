@@ -1,0 +1,133 @@
+ID,Name,Description,System,VisualType,Parent,OOTB_Custom,inScope,Usage#,flowchart TD,Comments,Type,Complexity,NewMod,NoOfUnits,WP,Adjustor
+ABB Item Form,ABB Item Form,,Frontend,Page,MyProfile,Custom,N,1,ABB Item Form[ABB Item Form] ; MyProfile --> ABB Item Form,- Create New Case [form],commerce presentation components,medium,new,4,WP 2,100%
+ABBItemDetails,ABB Item Details,,Frontend,Page,MyProfile,Custom,N,1,ABBItemDetails[ABB Item Details] ; MyProfile --> ABBItemDetails,"- View Case Details
+- Pending Registrations [tab]
+- Historic Confirmations [tab]",commerce presentation components,medium,new,5,WP 2,100%
+ABBItemsList,ABB Items List,,Frontend,Page,MyProfile,Custom,N,1,ABBItemsList[ABB Items List] ; MyProfile --> ABBItemsList,"- Cases [list]
+
+- Pending Registrations [tab]
+- Historic Confirmations [tab]
+",commerce presentation components,medium,new,5,WP 2,100%
+Checkout,Checkout Pages,,Frontend,Page,Cart,OOTB,Y,10,Checkout[Checkout Pages] ; Cart --> Checkout,Order Confirmation,commerce presentation components,medium,modified,1,WP 22,100%
+CreateNewCase,Create New Case,,Frontend,Page,Cases,Custom,Y,1,CreateNewCase[Create New Case] ; Cases --> CreateNewCase,Create New Case,commerce presentation components,medium,new,1,WP 22,100%
+ViewCaseDetails,View Case Details,,Frontend,Page,Cases,Custom,Y,1,ViewCaseDetails[View Case Details] ; Cases --> ViewCaseDetails,View Case Details,commerce presentation components,medium,new,1,WP 22,100%
+Shipment,Shipment,,Frontend,Component,Checkout,OOTB,Y,1,Shipment(Shipment) ; Checkout --> Shipment,,commerce presentation components,medium,modified,1,WP 22,100%
+CompanyAddress,Company Addresses,Customer Adress information,Frontend,Component,CompanyProfile,OOTB,Y,1,CompanyAddress(Company Addresses) ; CompanyProfile --> CompanyAddress,,commerce presentation components,medium,modified,1,WP 21,100%
+CompanyStructure,Company Business Unit Structure,Business Unit structure,Frontend,Component,CompanyProfile,OOTB,Y,1,CompanyStructure(Company Business Unit Structure) ; CompanyProfile --> CompanyStructure,,commerce presentation components,medium,modified,1,WP 21,100%
+BckAdmPanel,Admin Panel,Admin Panel to operate store / marketplace,Backoffice,Page,,OOTB,N,46,BckAdmPanel[Admin Panel],,commerce presentation components,medium,modified,1,WP 21,100%
+BckCommision,Commision management,,Backoffice,Component,BckMerchantProfile,OOTB,N,0,BckCommision(Commision management) ; BckMerchantProfile --> BckCommision,,application pages,Simple,modified,1,WP 2,100%
+BckMerchantProfile,Merchant Profile,Merchant (Seller) master data,Backoffice,Page,BckAdmPanel,OOTB,N,9,BckMerchantProfile[Merchant Profile] ; BckAdmPanel --> BckMerchantProfile,,application pages,Simple,modified,1,WP 2,100%
+MyProfile,User Profile Page,"Customer users (Name, Surname, eMail, Role)",Frontend,Page,CompanyProfile,OOTB,Y,12,MyProfile[User Profile Page] ; CompanyProfile --> MyProfile,Account Details,commerce presentation components,medium,modified,1,WP 21,100%
+BuyBox,Buy Box,Pricing information from multiple sellers,Frontend,Component,PDP,OOTB,N,0,BuyBox(Buy Box) ; PDP --> BuyBox,,commerce presentation components,Simple,modified,1,WP 2,100%
+UserManagement,User Management,,Frontend,Page,CompanyProfile,OOTB,Y,1,UserManagement[User Management] ; CompanyProfile --> UserManagement,Management,commerce presentation components,medium,modified,1,WP 21,100%
+CaseManagementWidget,Case Management/Ticketing Visibility widget,Case Management/Ticketing Visibility widget,Frontend,Component,TopMenu,Custom,N,1,CaseManagementWidget(Case Management/Ticketing Visibility widget) ; TopMenu --> CaseManagementWidget,JS to be embed ,commerce presentation components,simple,new,1,WP 2,100%
+ViewManageDelegations,View/Manage Delegations,,Frontend,Page,CompanyProfile,OOTB,Y,1,ViewManageDelegations[View/Manage Delegations] ; CompanyProfile --> ViewManageDelegations,View/Manage Delegations,commerce presentation components,medium,modified,1,WP 21,100%
+KeywordSearch,Keyword search,,Frontend,Component,DocumentationSearch,Custom,Y,1,KeywordSearch(Keyword search) ; DocumentationSearch --> KeywordSearch,Keyword search,commerce presentation components,simple,new,1,WP 21,100%
+Breadcrumbs,Breadcrumbs,,Frontend,Component,Footer,OOTB,Y,1,Breadcrumbs(Breadcrumbs) ; Footer --> Breadcrumbs,Breadcrumbs,commerce presentation components,simple,modified,1,WP 21,100%
+Header,Header,,Frontend,Component,Header,OOTB,Y,1,Header(Header) ; Header --> Header,Header,commerce presentation components,medium,modified,1,WP 21,100%
+CMS,CMS,Static CMS pages,Frontend,Page,Home,OOTB,N,1,CMS[CMS] ; Home --> CMS,,commerce presentation components,medium,new,5,WP 2,100%
+AboutUs,About Us,,Frontend,Page,Home,Custom,Y,1,AboutUs[About Us] ; Home --> AboutUs,About Us,commerce presentation components,simple,new,1,WP 21,100%
+Banner,Banner,,Frontend,Component,Home,OOTB,Y,1,Banner(Banner) ; Home --> Banner,"Marketing banners
+(generic in Ph. 1, personalized in Ph.2)",commerce presentation components,simple,modified,1,WP 21,100%
+CompanyLogin,Company Login,,Frontend,Page,Home,OOTB,Y,1,CompanyLogin[Company Login] ; Home --> CompanyLogin,Partner Portal - Sign In,commerce presentation components,simple,modified,1,WP 21,100%
+CompanyProfile,Company Profile Page,"Customer master data (Company Name, Tax Code)",Frontend,Component,Home,OOTB,Y,1,CompanyProfile(Company Profile Page) ; Home --> CompanyProfile,Partner Portal - Account Details,commerce presentation components,medium,modified,1,WP 21,100%
+CompanyRegistration,Company Registration Page,"Page where prospect can provide company data (name, tax code, address) and initiate veryfication / onboarding process.",Frontend,Page,Home,OOTB,Y,1,CompanyRegistration[Company Registration Page] ; Home --> CompanyRegistration,Partner Portal - Create Account,commerce presentation components,medium,modified,1,WP 21,100%
+CompanyResetPasswordForm,Company Reset Password Form,,Frontend,Page,Home,,Y,1,CompanyResetPasswordForm[Company Reset Password Form] ; Home --> CompanyResetPasswordForm,Partner Poral - Reset Password,commerce presentation components,simple,modified,1,WP 21,100%
+CookieConsent,"Cookie Notice, Terms, Privacy Compliance",Styling of the widget regardless of if generated localy or integrated (eg. One Trust),Frontend,Component,Home,OOTB,Y,1,"CookieConsent(Cookie Notice, Terms, Privacy Compliance) ; Home --> CookieConsent",Cookies,commerce presentation components,simple,modified,1,WP 21,100%
+CustomerRegistration,Customer Registration Page,,Frontend,Page,Home,OOTB,Y,1,CustomerRegistration[Customer Registration Page] ; Home --> CustomerRegistration,Create Account,commerce presentation components,medium,modified,1,WP 21,100%
+DocumentationSearch,Documentation Search,,Frontend,Page,Home,Custom,Y,1,DocumentationSearch[Documentation Search] ; Home --> DocumentationSearch,Documentation Search,commerce presentation components,medium,new,1,WP 21,100%
+Customer Experience Management,Customer Experience,,Frontend,Page,MyProfile,Custom,N,1,Customer Experience Management[Customer Experience] ; MyProfile --> Customer Experience Management,,commerce presentation components,medium,new,1,WP 22,100%
+Footer,Footer,,Frontend,Component,Home,Custom,Y,2,Footer(Footer) ; Home --> Footer,Footer,commerce presentation components,simple,modified,1,WP 21,100%
+DiscountCoupon,Discount Coupon,,Frontend,Component,Cart,OOTB,N,1,DiscountCoupon(Discount Coupon) ; Cart --> DiscountCoupon,,commerce presentation components,Simple,modified,1,WP 2,100%
+LoginForm,Login form,Special Login forms can be customized to needs,Frontend,Page,Home,OOTB,Y,1,LoginForm[Login form] ; Home --> LoginForm,Sign In,commerce presentation components,simple,modified,1,WP 21,100%
+Marketplace,Marketplace,,Frontend,Page,Home,Custom,Y,1,Marketplace[Marketplace] ; Home --> Marketplace,Marketplace,commerce presentation components,medium,new,1,WP 21,100%
+PrivacyPolicy,Privacy Policy,,Frontend,Page,Home,Custom,Y,1,PrivacyPolicy[Privacy Policy] ; Home --> PrivacyPolicy,Privacy Policy,commerce presentation components,simple,new,1,WP 21,100%
+ProductFinder,Product Finder,,Frontend,Page,Home,Custom,Y,1,ProductFinder[Product Finder] ; Home --> ProductFinder,Product Finder,commerce presentation components,medium,new,1,WP 21,100%
+ResetPasswordForm,Reset Password Form,,Frontend,Page,Home,,Y,1,ResetPasswordForm[Reset Password Form] ; Home --> ResetPasswordForm,Reset Password,commerce presentation components,simple,modified,1,WP 21,100%
+ShippingAndDelivery,Shipping And Delivery,,Frontend,Page,Home,Custom,Y,1,ShippingAndDelivery[Shipping And Delivery] ; Home --> ShippingAndDelivery,Shipping & Delivery,commerce presentation components,simple,new,1,WP 21,100%
+GoodsReceiptNote,Goods Receipt Note,,Frontend,Component,OrderHistoryPage,Custom,N,0,GoodsReceiptNote(Goods Receipt Note) ; OrderHistoryPage --> GoodsReceiptNote,,commerce presentation components,Simple,modified,1,WP 2,100%
+TermsAndConditions,Terms And Conditions,,Frontend,Page,Home,Custom,Y,1,TermsAndConditions[Terms And Conditions] ; Home --> TermsAndConditions,Terms & Conditions,commerce presentation components,simple,modified,1,WP 21,100%
+MiniCart,Mini Cart Component,Minicart component shown as popup,Frontend,Component,Home,OOTB,Y,1,MiniCart(Mini Cart Component) ; Home --> MiniCart,Shopping cart,commerce presentation components,medium,modified,1,WP 22,100%
+PurchaseRequest,Purchase Request,Purchase Request document (company internal),Frontend,Page,Home,OOTB,Y,1,PurchaseRequest[Purchase Request] ; Home --> PurchaseRequest,Order / Quote Request Confirmation,commerce presentation components,simple,modified,1,WP 22,100%
+TopMenu,Top Menu,Top menu,Frontend,Component,Home,OOTB,Y,1,TopMenu(Top Menu) ; Home --> TopMenu,Header-Navigation,commerce presentation components,simple,modified,1,WP 22,100%
+Resources,Resources,,Frontend,Page,MyProfile,Custom,Y,1,Resources[Resources] ; MyProfile --> Resources,Resources,commerce presentation components,simple,new,1,WP 21,100%
+InventoryDetails,Inventory,Inventory (stock) information,Frontend,Component,PDP,Custom,N,0,InventoryDetails(Inventory) ; PDP --> InventoryDetails,,commerce presentation components,Simple,modified,1,WP 2,100%
+Invoices,Invoice,Invoice data (as xml/json),Frontend,Component,OrderHistoryPage,OOTB,N,1,Invoices(Invoice) ; OrderHistoryPage --> Invoices,Documents,commerce presentation components,simple,new,1,WP 22,100%
+RolesAndPermissions,Roles and Permissions,,Frontend,Page,MyProfile,Custom,Y,1,RolesAndPermissions[Roles and Permissions] ; MyProfile --> RolesAndPermissions,Roles & Permissions,commerce presentation components,medium,modified,1,WP 21,100%
+ThirdPartyDelegations,Third Party Delegations,,Frontend,Page,MyProfile,Custom,Y,1,ThirdPartyDelegations[Third Party Delegations] ; MyProfile --> ThirdPartyDelegations,3rd Party Delegations,commerce presentation components,medium,modified,1,WP 21,100%
+Applications,Applications,,Frontend,Page,MyProfile,Custom,Y,1,Applications[Applications] ; MyProfile --> Applications,Applications,commerce presentation components,medium,new,1,WP 22,100%
+LiveChat,LiveChat,LiveChat,Frontend,Component,Home,Custom,N,1,LiveChat(LiveChat) ; Home --> LiveChat,JS to be embed ,commerce presentation components,simple,new,1,WP 2,100%
+Cases,Cases,,Frontend,Page,MyProfile,Custom,Y,1,Cases[Cases] ; MyProfile --> Cases,Cases,commerce presentation components,medium,new,1,WP 22,100%
+InstalledBasesList,Installed Bases List,,Frontend,Page,MyProfile,Custom,Y,1,InstalledBasesList[Installed Bases List] ; MyProfile --> InstalledBasesList,Installed Bases List,commerce presentation components,medium,new,1,WP 22,100%
+MarketPlaceSellerPage,Merchant Profile,Seller's profile page for customer,Frontend,Page,StoreLocator,OOTB,N,1,MarketPlaceSellerPage[Merchant Profile] ; StoreLocator --> MarketPlaceSellerPage,,commerce presentation components,Simple,modified,1,WP 2,100%
+OrderHistoryList,Order History List,Purchase Orders List,Frontend,Page,MyProfile,OOTB,Y,1,OrderHistoryList[Order History List] ; MyProfile --> OrderHistoryList,"Orders, View Order",commerce presentation components,medium,modified,1,WP 22,100%
+Message,Communication Message,Communication Message,Frontend,Component,OrderHistoryPage,Custom,N,0,Message(Communication Message) ; OrderHistoryPage --> Message,,commerce presentation components,Simple,modified,1,WP 2,100%
+MetricSwitcher,Metric Switcher,,Frontend,Component,TopMenu,Custom,N,0,MetricSwitcher(Metric Switcher) ; TopMenu --> MetricSwitcher,,commerce presentation components,Simple,modified,1,WP 2,100%
+RegisterNewAsset,Register New Asset,,Frontend,Page,MyProfile,Custom,Y,1,RegisterNewAsset[Register New Asset] ; MyProfile --> RegisterNewAsset,Register New Asset,commerce presentation components,medium,new,1,WP 22,1
+MpMerchantPortal,Merchant Portal,Seller's back office,MerchantPortal,Page,,OOTB,N,0,MpMerchantPortal[Merchant Portal],,application pages,Simple,modified,1,WP 2,1
+MpOffers,Offers,Offers of master products or other seller's products,MerchantPortal,Page,MpMerchantPortal,OOTB,N,0,MpOffers[Offers] ; MpMerchantPortal --> MpOffers,,application pages,Simple,modified,1,WP 2,1
+MpOrders,Orders,,MerchantPortal,Page,MpMerchantPortal,OOTB,N,0,MpOrders[Orders] ; MpMerchantPortal --> MpOrders,,application pages,Simple,modified,1,WP 2,1
+MpProducts,Products,Seller's products,MerchantPortal,Page,MpMerchantPortal,OOTB,N,0,MpProducts[Products] ; MpMerchantPortal --> MpProducts,,application pages,Simple,modified,1,WP 2,1
+MpProfile,Profile,"Management of business info, profile",MerchantPortal,Page,MpMerchantPortal,OOTB,N,0,MpProfile[Profile] ; MpMerchantPortal --> MpProfile,,application pages,Simple,modified,1,WP 2,1
+ServiceAgreements,Service Agreements,,Frontend,Page,MyProfile,Custom,Y,1,ServiceAgreements[Service Agreements] ; MyProfile --> ServiceAgreements,Service Agreements,commerce presentation components,medium,new,1,WP 22,1
+NewsletterSubscription,Newsletter Subscription,"Offer Newsletter Subscriptions, included opt-in, opt-out options",Frontend,Component,Home,Custom,N,1,NewsletterSubscription(Newsletter Subscription) ; Home --> NewsletterSubscription,,commerce presentation components,Simple,new,1,WP 2,1
+OnePageCheckout,One page checkout,One page checkout,Frontend,Page,Cart,Custom,N,1,OnePageCheckout[One page checkout] ; Cart --> OnePageCheckout,,commerce presentation components,complex,new,1,WP 2,1
+ViewAsset,ViewAsset,,Frontend,Page,MyProfile,Custom,Y,1,ViewAsset[ViewAsset] ; MyProfile --> ViewAsset,View Asset,commerce presentation components,medium,new,1,WP 22,1
+OrderHistoryPage,Order History Page,Purchase Order document (external binding),Frontend,Page,OrderHistoryList,OOTB,Y,1,OrderHistoryPage[Order History Page] ; OrderHistoryList --> OrderHistoryPage,Order Details,commerce presentation components,medium,modified,1,WP 22,1
+Shipments,Shipment on Order History Page,Shipment on Order History Page,Frontend,Component,OrderHistoryPage,OOTB,Y,1,Shipments(Shipment on Order History Page) ; OrderHistoryPage --> Shipments,,commerce presentation components,simple,modified,1,WP 22,1
+PageWithForm,Page with form,,Frontend,Page,PageWithForm,,N,1,PageWithForm[Page with form] ; PageWithForm --> PageWithForm,"- Wizard 6 pages
+ - Request changes [form]
+- View / Add / Manage Delegations",commerce presentation components,complex,new,9,WP 2,1
+Payment,Payment,,Frontend,Component,Cart,OOTB,N,1,Payment(Payment) ; Cart --> Payment,,commerce presentation components,simple,modified,1,WP 22,1
+Certificates,Certificates,,Frontend,Component,PDP,Custom,Y,1,Certificates(Certificates) ; PDP --> Certificates,Certificates,commerce presentation components,simple,new,1,WP 21,1
+CompatibleProducts,Compatible Products,,Frontend,Component,PDP,Custom,Y,1,CompatibleProducts(Compatible Products) ; PDP --> CompatibleProducts,Compatible Products,commerce presentation components,simple,modified,1,WP 21,1
+Documentation,Documentation,,Frontend,Component,PDP,Custom,Y,1,Documentation(Documentation) ; PDP --> Documentation,Documentation,commerce presentation components,simple,new,1,WP 21,1
+FAQ,FAQ,,Frontend,Component,PDP,Custom,Y,1,FAQ(FAQ) ; PDP --> FAQ,FAQ,commerce presentation components,simple,new,1,WP 21,1
+GeneralInfo,General info,,Frontend,Component,PDP,OOTB,Y,1,GeneralInfo(General info) ; PDP --> GeneralInfo,General info,commerce presentation components,simple,modified,1,WP 21,1
+Licenses,Licenses,,Frontend,Component,PDP,Custom,Y,1,Licenses(Licenses) ; PDP --> Licenses,Licenses,commerce presentation components,simple,new,1,WP 21,1
+MediaGallery,Media gallery,,Frontend,Component,PDP,OOTB,Y,1,MediaGallery(Media gallery) ; PDP --> MediaGallery,Media gallery,commerce presentation components,medium,modified,1,WP 21,1
+Options,Options,,Frontend,Component,PDP,OOTB,Y,1,Options(Options) ; PDP --> Options,Options,commerce presentation components,medium,new,1,WP 21,1
+Specifications,Specifications,,Frontend,Component,PDP,OOTB,Y,1,Specifications(Specifications) ; PDP --> Specifications,"My Portal - Specifications, MyBusiness - Specifications",commerce presentation components,simple,modified,1,WP 21,1
+PDP,Product Detail Page,"To highlight details relating to the product, options, variants, warranties or images",Frontend,Page,PLP,OOTB,Y,1,PDP[Product Detail Page] ; PLP --> PDP,,commerce presentation components,medium,modified,1,WP 21,1
+PDPAccessories,PDP Accessories,,Frontend,Page,PLP,OOTB,Y,1,PDPAccessories[PDP Accessories] ; PLP --> PDPAccessories,PDP Accessories,commerce presentation components,medium,modified,1,WP 21,0.75
+PDPControllers,PDP Controllers,,Frontend,Page,PLP,OOTB,Y,1,PDPControllers[PDP Controllers] ; PLP --> PDPControllers,PDP Controllers,commerce presentation components,medium,modified,1,WP 21,0.75
+PDPRobots,PDP Robots,,Frontend,Page,PLP,OOTB,Y,1,PDPRobots[PDP Robots] ; PLP --> PDPRobots,PDP Robots,commerce presentation components,medium,modified,1,WP 21,0.75
+PDPServices,PDP Services,,Frontend,Page,PLP,OOTB,Y,1,PDPServices[PDP Services] ; PLP --> PDPServices,PDP Services,commerce presentation components,medium,modified,1,WP 21,0.75
+ProductsCompare,Compare products,Compare products,Frontend,Page,PLP,Custom,N,1,ProductsCompare[Compare products] ; PLP --> ProductsCompare,Functionality covered by Cookbook asset. Effort for styling.,commerce presentation components,simple,modified,1,WP 2,1
+ProductsRecentlyViewd,Recently Viewed Products,A box showing recently viewed products,Frontend,Component,Home,OOTB,N,0,ProductsRecentlyViewd(Recently Viewed Products) ; Home --> ProductsRecentlyViewd,,commerce presentation components,Simple,modified,1,WP 2,1
+PromotionDetailsAtPDP,Promotion details,Promotion details compnenet shown on PDP page,Frontend,Component,PDP,OOTB,N,1,PromotionDetailsAtPDP(Promotion details) ; PDP --> PromotionDetailsAtPDP,,commerce presentation components,Simple,modified,1,WP 2,1
+PDPSoftware,PDP Software,,Frontend,Page,PLP,OOTB,Y,1,PDPSoftware[PDP Software] ; PLP --> PDPSoftware,PDP Software,commerce presentation components,medium,modified,1,WP 21,0.75
+QuickOrder,Quick Order form,Quick Order form,Frontend,Page,Home,OOTB,N,1,QuickOrder[Quick Order form] ; Home --> QuickOrder,,commerce presentation components,simple,modified,1,WP 2,1
+Refund,Refound,,Frontend,Component,OrderHistoryPage,OOTB,N,1,Refund(Refound) ; OrderHistoryPage --> Refund,,commerce presentation components,Simple,modified,1,WP 2,1
+PDPSolutions,PDP Solutions,,Frontend,Page,PLP,OOTB,Y,1,PDPSolutions[PDP Solutions] ; PLP --> PDPSolutions,PDP Solutions,commerce presentation components,medium,modified,1,WP 21,0.75
+PDPSpareParts,PDP Spare Parts,,Frontend,Page,PLP,OOTB,Y,1,PDPSpareParts[PDP Spare Parts] ; PLP --> PDPSpareParts,PDP Spare Parts,commerce presentation components,medium,modified,1,WP 21,0.75
+WizardSixSteps,Wizard (6 steps),,Frontend,Page,ProductFinder,Custom,Y,1,WizardSixSteps[Wizard (6 steps)] ; ProductFinder --> WizardSixSteps,Wizard (6 steps),commerce presentation components,complex,new,1,WP 22,1
+ResidualValue,Resitual Value component,Presentation of vehicle resitual value,Frontend,Component,Checkout,Custom,N,1,ResidualValue(Resitual Value component) ; Checkout --> ResidualValue,,commerce presentation components,medium,new,1,WP 2,1
+InstallationGuides,Installation Guides,,Frontend,Page,Resources,Custom,Y,1,InstallationGuides[Installation Guides] ; Resources --> InstallationGuides,Installation Guides,commerce presentation components,simple,new,1,WP 21,1
+Return,Return,Return document,Frontend,Component,OrderHistoryPage,OOTB,N,1,Return(Return) ; OrderHistoryPage --> Return,,commerce presentation components,Simple,modified,1,WP 2,1
+ProductAndSoftwareDocs,Product and Software Docs,,Frontend,Page,Resources,Custom,Y,1,ProductAndSoftwareDocs[Product and Software Docs] ; Resources --> ProductAndSoftwareDocs,Product and Software Docs,commerce presentation components,simple,new,1,WP 21,1
+ProductConfigurationTools,Product Configuration Tools,,Frontend,Page,Resources,Custom,Y,1,ProductConfigurationTools[Product Configuration Tools] ; Resources --> ProductConfigurationTools,Product Configuration Tools,commerce presentation components,simple,new,1,WP 21,1
+TroubleshootingManuals,Troubleshooting Manuals,,Frontend,Page,Resources,Custom,Y,1,TroubleshootingManuals[Troubleshooting Manuals] ; Resources --> TroubleshootingManuals,Troubleshooting Manuals,commerce presentation components,simple,new,1,WP 21,1
+RFQDetails,RFQ Details page,,Frontend,Page,RFQList,Custom,Y,1,RFQDetails[RFQ Details page] ; RFQList --> RFQDetails,Quote Request Confirmation,commerce presentation components,medium,modified,1,WP 21,1
+SearchResults,Search Result Page,Showing list of products returned from search,Frontend,Page,AdvancedSearch,OOTB,N,1,SearchResults[Search Result Page] ; AdvancedSearch --> SearchResults,,commerce presentation components,medium,new,1,WP 21,1
+RequestChanges,Request Changes,,Frontend,Page,RolesAndPermissions,Custom,Y,1,RequestChanges[Request Changes] ; RolesAndPermissions --> RequestChanges,Request Changes,commerce presentation components,medium,modified,1,WP 21,1
+ProductFilters,Filter Products,Set of filters allowing to narrow product list results,Frontend,Component,SearchResults,OOTB,Y,1,ProductFilters(Filter Products) ; SearchResults --> ProductFilters,,commerce presentation components,medium,modified,1,WP 21,1
+ScheduleAService,Schedule a Service,,Frontend,Page,ServiceAgreements,Custom,Y,1,ScheduleAService[Schedule a Service] ; ServiceAgreements --> ScheduleAService,Schedule a Service,commerce presentation components,medium,new,1,WP 22,1
+ViewService,View Service,,Frontend,Page,ServiceAgreements,Custom,Y,1,ViewService[View Service] ; ServiceAgreements --> ViewService,View Service,commerce presentation components,medium,new,1,WP 22,1
+AdvancedSearch,Advanced Search Page,,Frontend,Page,TopMenu,Custom,Y,1,AdvancedSearch[Advanced Search Page] ; TopMenu --> AdvancedSearch,Header-Search,commerce presentation components,medium,modified,1,WP 21,1
+Shopping List Management,Shopping List Management,Shopping List Management,Frontend,Page,TopMenu,OOTB,N,0,Shopping List Management[Shopping List Management] ; TopMenu --> Shopping List Management,,commerce presentation components,medium,modified,1,WP 2,1
+CatTree,Category Tree,Category structure presenation,Frontend,Component,TopMenu,OOTB,Y,1,CatTree(Category Tree) ; TopMenu --> CatTree,Categories ,commerce presentation components,medium,modified,1,WP 21,1
+PLP,Category Page,Product Listing Page,Frontend,Page,TopMenu,OOTB,Y,2,PLP[Category Page] ; TopMenu --> PLP,List Page,commerce presentation components,medium,modified,1,WP 21,1
+StoreLocator,Where to buy,A map with merchant's locations,Frontend,Page,TopMenu,OOTB,N,1,StoreLocator[Where to buy] ; TopMenu --> StoreLocator,,commerce presentation components,medium,new,1,WP 2,1
+RFQList,RFQ List page,,Frontend,Page,TopMenu,Custom,Y,1,RFQList[RFQ List page] ; TopMenu --> RFQList,Quote Request Confirmation,commerce presentation components,medium,modified,1,WP 21,1
+Cart,Cart Page,Full Cart Page,Frontend,Page,TopMenu,OOTB,Y,4,Cart[Cart Page] ; TopMenu --> Cart,Cart,commerce presentation components,medium,modified,1,WP 22,1
+LangSwitcher,Language Switcher,,Frontend,Component,TopMenu,OOTB,Y,1,LangSwitcher(Language Switcher) ; TopMenu --> LangSwitcher,Header-Location choice [popin],commerce presentation components,simple,modified,1,WP 22,1
+AddUser,Add User,,Frontend,Page,User Management,OOTB,Y,1,AddUser[Add User] ; User Management --> AddUser,Add User,commerce presentation components,medium,modified,1,WP 21,1
+AssetDetails,Asset Details,,Frontend,Component,ViewAsset,Custom,Y,1,AssetDetails(Asset Details) ; ViewAsset --> AssetDetails,Asset Details,commerce presentation components,medium,new,1,WP 22,1
+SpareParts,Spare Parts,,Frontend,Component,ViewAsset,Custom,Y,1,SpareParts(Spare Parts) ; ViewAsset --> SpareParts,Spare Parts,commerce presentation components,medium,new,1,WP 22,1
+InInstalledBase,In Installed Base,,Frontend,Component,ViewService,Custom,Y,1,InInstalledBase(In Installed Base) ; ViewService --> InInstalledBase,In Installed Base,commerce presentation components,medium,new,1,WP 22,1
+ServiceReports,Service Reports,,Frontend,Component,ViewService,Custom,Y,1,ServiceReports(Service Reports) ; ViewService --> ServiceReports,Service Reports,commerce presentation components,medium,new,1,WP 22,1
+Finder Result Page,Finder Result Page,,Frontend,Page,WizardSixSteps,Custom,Y,1,Finder Result Page[Finder Result Page] ; WizardSixSteps --> Finder Result Page,Finder Result Page,commerce presentation components,medium,new,1,WP 21,1
+WebConfig,WebConfig,WebConfig ABB,Frontend,Page,MyProfile,Custom,N,1,WebConfig[WebConfig] ; MyProfile --> WebConfig,,commerce presentation components,complex,new,1,WP 2,1
+Whishlist,Whishlist,Whishlist,Frontend,Page,MyProfile,OOTB,N,1,Whishlist[Whishlist] ; MyProfile --> Whishlist,,commerce presentation components,medium,modified,1,WP 2,1
+Home,Home Page,"Homepage restyling including general styling, header, footer, top navigation, main banner, one carousel, up to three content blocks; responsive",Frontend,Page,,OOTB,Y,1,Home[Home Page],Homepage,commerce presentation components,medium,modified,1,WP 22,1

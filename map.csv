@@ -1,0 +1,540 @@
+FeatureId,FeatureInScope,ComponentType,ComponentId,ComponentExistsCheck
+Analytics and Reporting-Customer Experience Management,Y,module,Analytics and Reporting-Customer Experience Management,Analytics and Reporting-Customer Experience Management
+Analytics and Reporting-Customer Experience Management,Y,screen,Customer Experience Management,Customer Experience Management
+Analytics and Reporting-Customer Experience Management,Y,flow,UserExperience:Frontend-Medallia,UserExperience:Frontend-Medallia
+Analytics and Reporting-Dashboard,N,screen,BckAdmPanel,BckAdmPanel
+Analytics and Reporting-Dashboard,N,module,Report-Dashboard,Report-Dashboard
+Analytics and Reporting-Dashboard in Merchant Portal,N,screen,BckMerchantProfile,BckMerchantProfile
+Analytics and Reporting-Dashboard in Merchant Portal,N,module,Report-Dashboard in Merchant Portal,Report-Dashboard in Merchant Portal
+Analytics and Reporting-Generic Marketplace Report,N,screen,BckMerchantProfile,BckMerchantProfile
+Analytics and Reporting-Generic Marketplace Report,N,module,Report-Generic Marketplace Report,Report-Generic Marketplace Report
+Analytics and Reporting-Generic Report,Y,screen,BckAdmPanel,BckAdmPanel
+Analytics and Reporting-Generic Report,Y,module,Report-Generic Report,Report-Generic Report
+Analytics and Reporting-Google Tag Manager and GA4,Y,module,Analytics and Reporting-Google Tag Manager and GA4,Analytics and Reporting-Google Tag Manager and GA4
+Analytics and Reporting-Google Tag Manager and GA4,Y,flow,Interacton:Frontend-Analitics,Interacton:Frontend-Analitics
+Cart & Checkout-Approval Process,N,screen,Cart,Cart
+Cart & Checkout-Approval Process,N,module,Cart & Checkout-Approval Process,Cart & Checkout-Approval Process
+Cart & Checkout-Cart Functionality & Calculations,Y,module,Cart & Checkout-Cart Functionality & Calculations,Cart & Checkout-Cart Functionality & Calculations
+Cart & Checkout-Cart Functionality & Calculations,Y,screen,Checkout,Checkout
+Cart & Checkout-Cart Functionality & Calculations,Y,screen,MiniCart,MiniCart
+Cart & Checkout-Cart Functionality & Calculations,Y,screen,Payment,Payment
+Cart & Checkout-Cart page,Y,module,Cart & Checkout-Cart page,Cart & Checkout-Cart page
+Cart & Checkout-Cart page,Y,screen,Cart,Cart
+Cart & Checkout-Checkout step - customer,Y,module,Cart & Checkout-Checkout step - customer,Cart & Checkout-Checkout step - customer
+Cart & Checkout-Checkout step - customer,Y,screen,Checkout,Checkout
+Cart & Checkout-Checkout step - delivery & billing addresses,Y,module,Cart & Checkout-Checkout step - delivery & billing addresses,Cart & Checkout-Checkout step - delivery & billing addresses
+Cart & Checkout-Checkout step - delivery & billing addresses,Y,screen,Checkout,Checkout
+Cart & Checkout-Checkout step - payment,Y,module,Cart & Checkout-Checkout step - payment,Cart & Checkout-Checkout step - payment
+Cart & Checkout-Checkout step - payment,Y,screen,Checkout,Checkout
+Cart & Checkout-Checkout step - place order,Y,module,Cart & Checkout-Checkout step - place order,Cart & Checkout-Checkout step - place order
+Cart & Checkout-Checkout step - place order,Y,screen,Checkout,Checkout
+Cart & Checkout-Checkout step - place order,Y,screen,PurchaseRequest,PurchaseRequest
+Cart & Checkout-Checkout step - shipment,Y,module,Cart & Checkout-Checkout step - shipment,Cart & Checkout-Checkout step - shipment
+Cart & Checkout-Checkout step - shipment,Y,screen,Checkout,Checkout
+Cart & Checkout-Checkout step - shipment,Y,screen,Shipments,Shipments
+Cart & Checkout-Checkout step - split delivery,N,module,Cart & Checkout-Checkout step - split delivery,Cart & Checkout-Checkout step - split delivery
+Cart & Checkout-Checkout step - split delivery,N,screen,Checkout,Checkout
+Cart & Checkout-Checkout step - success,N,module,Cart & Checkout-Checkout step - success,Cart & Checkout-Checkout step - success
+Cart & Checkout-Checkout step - success,N,screen,Checkout,Checkout
+Cart & Checkout-Checkout step - summary,Y,module,Cart & Checkout-Checkout step - summary,Cart & Checkout-Checkout step - summary
+Cart & Checkout-Checkout step - summary,Y,screen,Checkout,Checkout
+Cart & Checkout-Comments Widget,N,module,Cart & Checkout-Comments Widget,Cart & Checkout-Comments Widget
+Cart & Checkout-Custom Order Reference,N,module,Cart & Checkout-Custom Order Reference,Cart & Checkout-Custom Order Reference
+Cart & Checkout-Custom Order Reference,N,screen,Checkout,Checkout
+Cart & Checkout-Download cart items,N,screen,Cart,Cart
+Cart & Checkout-Download cart items,N,module,Cart & Checkout-Download cart items,Cart & Checkout-Download cart items
+Cart & Checkout-Multi Cart,N,screen,Cart,Cart
+Cart & Checkout-Multi Cart,N,module,Cart & Checkout-Multi Cart,Cart & Checkout-Multi Cart
+Cart & Checkout-Non-splittable Products,N,module,Cart & Checkout-Configuration of non-splittable products,Cart & Checkout-Configuration of non-splittable products
+Cart & Checkout-One page checkout,N,screen,OnePageCheckout,OnePageCheckout
+Cart & Checkout-Order thresholds,N,module,Cart & Checkout-Global thresholds,Cart & Checkout-Global thresholds
+Cart & Checkout-Persistent Cart Sharing,N,module,Cart & Checkout-Persistent Cart Sharing,Cart & Checkout-Persistent Cart Sharing
+Cart & Checkout-Quick Add to Cart,N,module,Cart & Checkout-Quick Add to Cart,Cart & Checkout-Quick Add to Cart
+Cart & Checkout-Quick Add to Cart,N,screen,QuickOrder,QuickOrder
+CMS-About Us,Y,module,CMS-About Us,CMS-About Us
+CMS-About Us,Y,screen,AboutUs,AboutUs
+CMS-Banner,Y,screen,Banner,Banner
+CMS-Breadcrumbs,Y,screen,Breadcrumbs,Breadcrumbs
+CMS-CMS Blocks,Y,screen,BckAdmPanel,BckAdmPanel
+CMS-CMS Blocks,Y,module,CMS-CMS Blocks,CMS-CMS Blocks
+CMS-CMS Pages / Landing Pages,N,screen,BckAdmPanel,BckAdmPanel
+CMS-CMS Pages / Landing Pages,N,module,CMS-CMS Pages / Landing Pages,CMS-CMS Pages / Landing Pages
+CMS-CMS Pages / Landing Pages,N,screen,CMS,CMS
+CMS-CMS Templates & Slots,N,screen,BckAdmPanel,BckAdmPanel
+CMS-CMS Templates & Slots,N,module,CMS-CMS Templates & Slots,CMS-CMS Templates & Slots
+CMS-Content Creation Workflows/Approvals ,N,screen,BckAdmPanel,BckAdmPanel
+CMS-Content Creation Workflows/Approvals ,N,module,CMS-Content Creation Workflows/Approvals ,CMS-Content Creation Workflows/Approvals 
+CMS-Content Item,N,screen,BckAdmPanel,BckAdmPanel
+CMS-Content Item,N,module,CMS-Content Item,CMS-Content Item
+CMS-File Manager,N,screen,BckAdmPanel,BckAdmPanel
+CMS-File Manager,N,module,DAM-File Manager,DAM-File Manager
+CMS-Footer,Y,screen,Footer,Footer
+CMS-Footer,Y,module,CMS-Footer,CMS-Footer
+CMS-Footer,Y,screen,Footer,Footer
+CMS-Footer,Y,screen,ShippingAndDelivery,ShippingAndDelivery
+CMS-Footer,Y,screen,TermsAndConditions,TermsAndConditions
+CMS-Footer,Y,screen,PrivacyPolicy,PrivacyPolicy
+CMS-Header,Y,screen,Header,Header
+CMS-Homepage restyling,Y,screen,Home,Home
+CMS-Navigation,Y,module,CMS-Navigation,CMS-Navigation
+CMS-Navigation,Y,screen,TopMenu,TopMenu
+CMS-Page with form,N,module,CMS-Page with form,CMS-Page with form
+CMS-Page with form,N,screen,PageWithForm,PageWithForm
+CMS-Product Sets,N,screen,BckAdmPanel,BckAdmPanel
+CMS-Product Sets,N,module,CMS-Product Sets,CMS-Product Sets
+CMS-URL Redirects,N,screen,BckAdmPanel,BckAdmPanel
+CMS-URL Redirects,N,module,CMS-URL Redirects,CMS-URL Redirects
+Customer-ABB Item,N,screen,ABBItemsList,ABBItemsList
+Customer-ABB Item,N,screen,ABBItemDetails,ABBItemDetails
+Customer-ABB Item,N,screen,ABB Item Form,ABB Item Form
+Customer-ABB Item,N,module,CMS-ABB Item,CMS-ABB Item
+Customer-Business on Behalf,Y,module,CRM-Business on Behalf,CRM-Business on Behalf
+Customer-Case Management/Ticketing Visibility,N,flow,CASE:Frontend-CRM,Case:Frontend-CRM
+Customer-Case Management/Ticketing Visibility,N,module,CRM-Case Management/Ticketing Visibility,CRM-Case Management/Ticketing Visibility
+Customer-Case Management/Ticketing Visibility,N,flow,CASE:Frontend-Middleware,Case:Frontend-Middleware
+Customer-Case Management/Ticketing Visibility,N,flow,CASE:Middleware-Frontend,Case:Middleware-Frontend
+Customer-Case Management/Ticketing Visibility,N,flow,CASE:CRM-Middleware,Case:CRM-Middleware
+Customer-Case Management/Ticketing Visibility,N,flow,CASE:Middleware-CRM,Case:Middleware-CRM
+Customer-Case Management/Ticketing Visibility,N,flow,CASE:CRM-Frontend,Case:CRM-Frontend
+Customer-Case Management/Ticketing Visibility widget,N,screen,CaseManagementWidget,CaseManagementWidget
+Customer-Company Account,Y,module,CRM-Company Account,CRM-Company Account
+Customer-Company Account,Y,screen,CompanyAddress,CompanyAddress
+Customer-Company Account,Y,screen,CompanyProfile,CompanyProfile
+Customer-Company Account,Y,screen,CompanyStructure,CompanyStructure
+Customer-Company Account,Y,flow,CustomerAccount:CSV-eCommerce,CustomerAccount:CSV-eCommerce
+Customer-Company Account,Y,flow,ProductCategory:CSV-eCommerce,ProductCategory:CSV-eCommerce
+Customer-Company Account,Y,flow,CustomerAddress:CSV-eCommerce,CustomerAddress:CSV-eCommerce
+Customer-Company Account,Y,flow,CustomerBU:CSV-eCommerce,CustomerBU:CSV-eCommerce
+Customer-Company Account,Y,screen,UserManagement,UserManagement
+Customer-Company Account,Y,screen,AddUser,AddUser
+Customer-Company Account,Y,screen,ViewManageDelegations,ViewManageDelegations
+Customer-Company Login,Y,module,CRM-Company Login,CRM-Company Login
+Customer-Company Login,Y,screen,CompanyLogin,CompanyLogin
+Customer-Company Login,Y,screen,CompanyResetPasswordForm,CompanyResetPasswordForm
+Customer-Company User Roles and Permissions,Y,module,CRM-Company User Roles and Permissions,CRM-Company User Roles and Permissions
+Customer-Company User Roles and Permissions,Y,screen,RolesAndPermissions,RolesAndPermissions
+Customer-Company User Roles and Permissions,Y,screen,RequestChanges,RequestChanges
+"Customer-Cookie Notice, Terms, Privacy Compliance",Y,screen,CookieConsent,CookieConsent
+"Customer-Cookie Notice, Terms, Privacy Compliance",Y,flow,CustomerConsent:Frontend-Gigya,CustomerConsent:Frontend-Gigya
+Customer-Customer Access,Y,module,CRM-Customer Access,CRM-Customer Access
+Customer-Customer Accounts,Y,module,CRM-Customer Accounts,CRM-Customer Accounts
+Customer-Customer Accounts,Y,screen,MyProfile,MyProfile
+Customer-Customer Accounts,Y,flow,CustomerUser:CSV-eCommerce,CustomerUser:CSV-eCommerce
+Customer-Customer Groups,Y,screen,BckAdmPanel,BckAdmPanel
+Customer-Customer Groups,Y,module,CRM-Customer Groups,CRM-Customer Groups
+Customer-Customer impersonation,Y,module,CRM-Customer impersonation,CRM-Customer impersonation
+Customer-Customer Login,Y,module,CRM-Customer Login,CRM-Customer Login
+Customer-Customer Login,Y,screen,LoginForm,LoginForm
+Customer-Customer Login,Y,screen,MyProfile,MyProfile
+Customer-Customer Login,Y,screen,ResetPasswordForm,ResetPasswordForm
+Customer-Customer Registration,Y,module,CRM-Customer Registration,CRM-Customer Registration
+Customer-Customer Registration,Y,screen,CustomerRegistration,CustomerRegistration
+Customer-Installed Bases,Y,module,CMS-Installed Bases,CMS-Installed Bases
+Customer-Installed Bases,Y,screen,InstalledBasesList,InstalledBasesList
+Customer-Installed Bases,Y,screen,RegisterNewAsset,RegisterNewAsset
+Customer-Installed Bases,Y,screen,ViewAsset,ViewAsset
+Customer-Installed Bases,Y,screen,AssetDetails,AssetDetails
+Customer-Installed Bases,Y,screen,SpareParts,SpareParts
+Customer-My Profile. Order list and details.,Y,screen,Invoices,Invoices
+Customer-My Profile. Order list and details.,Y,screen,OrderHistoryList,OrderHistoryList
+Customer-My Profile. Order list and details.,Y,screen,OrderHistoryPage,OrderHistoryPage
+Customer-Newsletter Subscription,N,screen,NewsletterSubscription,NewsletterSubscription
+Customer-Opportunity tracking,N,flow,Opportunity:Frontend-Middleware,Opportunity:Frontend-Middleware
+Customer-Opportunity tracking,N,flow,Opportunity:Middleware-CRM,Opportunity:Middleware-CRM
+Customer-Registration of new Company,Y,screen,CompanyRegistration,CompanyRegistration
+Customer-Registration of new Company,Y,module,CRM-Registration of new Company,CRM-Registration of new Company
+Customer-Service Agreements,Y,module,CRM-Service Agreements,CRM-Service Agreements
+Customer-Service Agreements,Y,flow,ServiceAgreement:Middleware-Frontend,ServiceAgreement:Middleware-Frontend
+Customer-Service Agreements,Y,flow,ServiceIntervention:Middleware-Frontend,ServiceIntervention:Middleware-Frontend
+Customer-Service Agreements,Y,screen,ServiceAgreements,ServiceAgreements
+Customer-Service Agreements,Y,screen,ScheduleAService,ScheduleAService
+Customer-Service Agreements,Y,screen,ViewService,ViewService
+Customer-Service Agreements,Y,screen,InInstalledBase,InInstalledBase
+Customer-Service Agreements,Y,screen,ServiceReports,ServiceReports
+Customer-Third Party Delegations,Y,module,CRM-Third Party Delegations,CRM-Third Party Delegations
+Customer-Third Party Delegations,Y,screen,ThirdPartyDelegations,ThirdPartyDelegations
+DAM-Applications,Y,module,DAM-Applications,DAM-Applications
+DAM-Applications,Y,screen,Applications,Applications
+DAM-Resources,Y,module,DAM-Resources,DAM-Resources
+DAM-Resources,Y,screen,Resources,Resources
+DAM-Resources,Y,screen,InstallationGuides,InstallationGuides
+DAM-Resources,Y,screen,TroubleshootingManuals,TroubleshootingManuals
+DAM-Resources,Y,screen,ProductAndSoftwareDocs,ProductAndSoftwareDocs
+DAM-Resources,Y,screen,ProductConfigurationTools,ProductConfigurationTools
+Data Exchange-AdminUser integration,N,flow,AdminUser:ERP-eCommerce,AdminUser:ERP-eCommerce
+Data Exchange-Case management integration,N,flow,CASE:Frontend-CRM,Case:Frontend-CRM
+Data Exchange-Case management integration,N,flow,CASE:CRM-Frontend,Case:CRM-Frontend
+Data Exchange-Case/Tech Support,Y,module,CRM-Case/Tech Support,CRM-Case/Tech Support
+Data Exchange-Case/Tech Support,Y,flow,Case:Middleware-eCommerce,Case:Middleware-eCommerce
+Data Exchange-Case/Tech Support,Y,flow,Case:eCommerce-Middleware,Case:eCommerce-Middleware
+Data Exchange-Case/Tech Support,Y,screen,Cases,Cases
+Data Exchange-Case/Tech Support,Y,screen,CreateNewCase,CreateNewCase
+Data Exchange-Case/Tech Support,Y,screen,ViewCaseDetails,ViewCaseDetails
+Data Exchange-Category integration,Y,flow,ProductCategory:eCommerce-GlueAPI,ProductCategory:eCommerce-GlueAPI
+Data Exchange-Category integration,Y,flow,ProductCategory:Middleware-eCommerce,ProductCategory:Middleware-eCommerce
+Data Exchange-Category integration,Y,flow,ProductCategory:ERP-eCommerce,ProductCategory:ERP-eCommerce
+Data Exchange-Company & Business Units integration,Y,flow,CustomerAccount:CRM-eCommerce,CustomerAccount:CRM-eCommerce
+Data Exchange-Company & Business Units integration,Y,flow,CustomerAccount:eCommerce-Middleware,CustomerAccount:eCommerce-Middleware
+Data Exchange-Company & Business Units integration,Y,flow,CustomerAccount:CRM-Middleware,CustomerAccount:CRM-Middleware
+Data Exchange-Company & Business Units integration,Y,flow,CustomerAccount:Middleware-eCommerce,CustomerAccount:Middleware-eCommerce
+Data Exchange-Company & Business Units integration,Y,flow,CustomerAccount:Middleware-CRM,CustomerAccount:Middleware-CRM
+Data Exchange-Company & Business Units integration,Y,flow,CustomerAccount:eCommerce-CRM,CustomerAccount:eCommerce-CRM
+Data Exchange-Company & Business Units integration,Y,flow,CustomerAddress:CRM-Middleware,CustomerAddress:CRM-Middleware
+Data Exchange-Company & Business Units integration,Y,flow,CustomerAddress:Middleware-eCommerce,CustomerAddress:Middleware-eCommerce
+Data Exchange-Company & Business Units integration,Y,flow,CustomerAddress:eCommerce-Middleware,CustomerAddress:eCommerce-Middleware
+Data Exchange-Company & Business Units integration,Y,flow,CustomerAddress:Middleware-CRM,CustomerAddress:Middleware-CRM
+Data Exchange-Company & Business Units integration,Y,flow,CustomerBU:CRM-Middleware,CustomerBU:CRM-Middleware
+Data Exchange-Company & Business Units integration,Y,flow,CustomerBU:Middleware-eCommerce,CustomerBU:Middleware-eCommerce
+Data Exchange-Company & Business Units integration,Y,flow,CustomerBU:Middleware-eCommerce,CustomerBU:Middleware-eCommerce
+Data Exchange-Company & Business Units integration,Y,flow,CustomerBU:Middleware-CRM,CustomerBU:Middleware-CRM
+Data Exchange-Company & Business Units integration,Y,flow,CustomerAddress:ESA-Middleware,CustomerAddress:ESA-Middleware
+Data Exchange-Company & Business Units integration,Y,flow,CustomerAddress:Middleware-ESA,CustomerAddress:Middleware-ESA
+Data Exchange-Company & Business Units integration,Y,flow,CustomerBU:ESA-Middleware,CustomerBU:ESA-Middleware
+Data Exchange-Company & Business Units integration,Y,flow,CustomerBU:Middleware-ESA,CustomerBU:Middleware-ESA
+Data Exchange-Company User integration,Y,flow,CustomerUser:Middleware-eCommerce,CustomerUser:Middleware-eCommerce
+Data Exchange-Company User integration,Y,flow,CustomerUser:eCommerce-Gigya,CustomerUser:eCommerce-Gigya
+Data Exchange-Company User integration,Y,flow,CustomerUser:CRM-eCommerce,CustomerUser:CRM-eCommerce
+Data Exchange-Company User integration,Y,flow,CustomerUser:eCommerce-CRM,CustomerUser:eCommerce-CRM
+Data Exchange-Company User integration,Y,flow,CustomerUser:CRM-Middleware,CustomerUser:CRM-Middleware
+Data Exchange-Company User integration,Y,flow,CustomerUser:Middleware-CRM,CustomerUser:Middleware-CRM
+Data Exchange-Documentation Integration,Y,flow,Documentation:Middleware-eCommerce,Documentation:Middleware-eCommerce
+Data Exchange-Goods Received Notice integration,N,flow,GoodsReceiptNote:eCommerce-P2P,GoodsReceiptNote:eCommerce-P2P
+Data Exchange-Goods Received Notice integration,N,flow,GoodsReceiptNote:ERP-eCommerce,GoodsReceiptNote:ERP-eCommerce
+Data Exchange-Inventory (SOH) integration,Y,flow,MerchantSOH:ExtMerchant-eCommerce,MerchantSOH:ExtMerchant-eCommerce
+Data Exchange-Inventory (SOH) integration,Y,flow,MerchantSOH:ExtMerchant-MerchantPortal,MerchantSOH:ExtMerchant-MerchantPortal
+Data Exchange-Inventory (SOH) integration,Y,flow,StockOnHand:ERP-eCommerce,StockOnHand:ERP-eCommerce
+Data Exchange-Inventory (SOH) integration,Y,flow,StockOnHand:ERP-Middleware,StockOnHand:ERP-Middleware
+Data Exchange-Inventory (SOH) integration,Y,flow,StockOnHand:ExtMerchant-eCommerce,StockOnHand:ExtMerchant-eCommerce
+Data Exchange-Inventory (SOH) integration,Y,flow,StockOnHand:ExtMerchant-MerchantPortal,StockOnHand:ExtMerchant-MerchantPortal
+Data Exchange-Inventory (SOH) integration,Y,flow,StockOnHand:Middleware-eCommerce,StockOnHand:Middleware-eCommerce
+Data Exchange-InvoiceData  integration,N,flow,InvoiceData:ERP-eCommerce,InvoiceData:ERP-eCommerce
+Data Exchange-InvoiceData  integration,N,flow,InvoiceData:P2P-eCommerce,InvoiceData:P2P-eCommerce
+Data Exchange-InvoiceData  integration,N,flow,InvoiceData:P2P-ERP,InvoiceData:P2P-ERP
+Data Exchange-InvoiceData  integration,N,flow,InvoiceData:ERP-Middleware,InvoiceData:ERP-Middleware
+Data Exchange-InvoiceData  integration,N,flow,InvoiceData:Middleware-eCommerce,InvoiceData:Middleware-eCommerce
+Data Exchange-LiveChat for customers,N,flow,CHAT:CRM-Frontend,Chat:CRM-Frontend
+Data Exchange-LiveChat for customers,N,screen,LiveChat,LiveChat
+Data Exchange-Merchant Account integration,N,flow,MerchantAccount:CRM-eCommerce,MerchantAccount:CRM-eCommerce
+Data Exchange-Merchant Account integration,N,flow,MerchantAccount:CSV-eCommerce,MerchantAccount:CSV-eCommerce
+Data Exchange-Merchant Account integration,N,flow,MerchantAccount:eCommerce-CRM,MerchantAccount:eCommerce-CRM
+Data Exchange-Merchant Account integration,N,flow,MerchantAccount:ExtMerchant-eCommerce,MerchantAccount:ExtMerchant-eCommerce
+Data Exchange-Merchant Account integration,N,flow,MerchantAccount:ESA-Middleware,MerchantAccount:ESA-Middleware
+Data Exchange-Merchant Account integration,N,flow,MerchantAccount:Middleware-eCommerce,MerchantAccount:Middleware-eCommerce
+Data Exchange-Merchant Account integration,N,flow,MerchantAccount:CRM-Middleware,MerchantAccount:CRM-Middleware
+Data Exchange-Merchant User integration,N,flow,MerchantUser:CRM-eCommerce,MerchantUser:CRM-eCommerce
+Data Exchange-Merchant User integration,N,flow,MerchantUser:eCommerce-CRM,MerchantUser:eCommerce-CRM
+Data Exchange-Message integration,N,flow,Message:eCommerce-P2P,Message:eCommerce-P2P
+Data Exchange-Offers integration,N,flow,Offer:ExtMerchant-eCommerce,Offer:ExtMerchant-eCommerce
+Data Exchange-OpenSlot integration,N,flow,ProductionOpenSlot:CSV-eCommerce,ProductionOpenSlot:CSV-eCommerce
+Data Exchange-Order integration,Y,flow,Order:GlueAPI-eCommerce,Order:GlueAPI-eCommerce
+Data Exchange-Order integration,Y,flow,Order:Backoffice-ExtMerchant,Order:Backoffice-ExtMerchant
+Data Exchange-Order integration,Y,flow,Order:eCommerce-ERP,Order:eCommerce-ERP
+Data Exchange-Order integration,Y,flow,Order:eCommerce-P2P,Order:eCommerce-P2P
+Data Exchange-Order integration,Y,flow,Order:ERP-eCommerce,Order:ERP-eCommerce
+Data Exchange-Order integration,Y,flow,Order:ExtMerchant-Backoffice,Order:ExtMerchant-Backoffice
+Data Exchange-Order integration,Y,flow,Order:P2P-eCommerce,Order:P2P-eCommerce
+Data Exchange-Order integration,Y,flow,Order:eCommerce-Middleware,Order:eCommerce-Middleware
+Data Exchange-Order integration,Y,flow,Order:Middleware-ERP,Order:Middleware-ERP
+Data Exchange-Order integration,Y,flow,Order:ERP-Middleware,Order:ERP-Middleware
+Data Exchange-Order integration,Y,flow,Order:Middleware-eCommerce,Order:Middleware-eCommerce
+Data Exchange-Parts Customer integration,N,flow,Parts_CustomerAccount:ESA-eCommerce,Parts_CustomerAccount:ESA-eCommerce
+Data Exchange-Parts Customer integration,N,flow,Parts_CustomerAddress:ESA-eCommerce,Parts_CustomerAddress:ESA-eCommerce
+Data Exchange-Parts Customer integration,N,flow,Parts_CustomerBU:ESA-eCommerce,Parts_CustomerBU:ESA-eCommerce
+Data Exchange-Parts Customer integration,N,flow,Parts_CustomerUser:ESA-eCommerce,Parts_CustomerUser:ESA-eCommerce
+Data Exchange-Parts Customer integration,N,flow,Parts_CustomerAccount:ESA-Middleware,Parts_CustomerAccount:ESA-Middleware
+Data Exchange-Parts Customer integration,N,flow,Parts_CustomerAccount:Middleware-eCommerce,Parts_CustomerAccount:Middleware-eCommerce
+Data Exchange-Parts Customer integration,N,flow,Parts_CustomerAddress:ESA-Middleware,Parts_CustomerAddress:ESA-Middleware
+Data Exchange-Parts Customer integration,N,flow,Parts_CustomerAddress:Middleware-eCommerce,Parts_CustomerAddress:Middleware-eCommerce
+Data Exchange-Parts Customer integration,N,flow,Parts_CustomerBU:ESA-Middleware,Parts_CustomerBU:ESA-Middleware
+Data Exchange-Parts Customer integration,N,flow,Parts_CustomerBU:Middleware-eCommerce,Parts_CustomerBU:Middleware-eCommerce
+Data Exchange-Parts Customer integration,N,flow,Parts_CustomerUser:ESA-Middleware,Parts_CustomerUser:ESA-Middleware
+Data Exchange-Parts Customer integration,N,flow,Parts_CustomerUser:Middleware-eCommerce,Parts_CustomerUser:Middleware-eCommerce
+Data Exchange-Parts Order integration (bidirectional),N,flow,Parts_Order:eCommerce-ESA,Parts_Order:eCommerce-ESA
+Data Exchange-Parts Order integration (bidirectional),N,flow,Parts_Order:ESA-eCommerce,Parts_Order:ESA-eCommerce
+Data Exchange-Parts Parts integration,N,flow,Parts_Category:Mantis-eCommerce,Parts_Category:Mantis-eCommerce
+Data Exchange-Parts Parts integration,N,flow,Parts_Product:Mantis-eCommerce,Parts_Product:Mantis-eCommerce
+Data Exchange-Parts Parts integration,N,flow,Parts_Images:Mantis-eCommerce,Parts_Images:Mantis-eCommerce
+Data Exchange-Parts Parts integration,N,flow,Parts_Category:Mantis-Middleware,Parts_Category:Mantis-Middleware
+Data Exchange-Parts Parts integration,N,flow,Parts_Category:Middleware-eCommerce,Parts_Category:Middleware-eCommerce
+Data Exchange-Parts Parts integration,N,flow,Parts_Images:Mantis-Middleware,Parts_Images:Mantis-Middleware
+Data Exchange-Parts Parts integration,N,flow,Parts_Images:Middleware-eCommerce,Parts_Images:Middleware-eCommerce
+Data Exchange-Parts Parts integration,N,flow,Parts_Product:Mantis-Middleware,Parts_Product:Mantis-Middleware
+Data Exchange-Parts Parts integration,N,flow,Parts_Product:Middleware-eCommerce,Parts_Product:Middleware-eCommerce
+Data Exchange-Parts Parts integration,N,flow,Parts_Product:Mantis-eCommerce,Parts_Product:Mantis-eCommerce
+Data Exchange-Parts Stock integration,N,flow,StockOnHand:CSV-eCommerce,StockOnHand:CSV-eCommerce
+Data Exchange-Parts Stock integration,N,module,Inventory-On-demand inventory check,Inventory-On-demand inventory check
+Data Exchange-Parts Stock integration,N,flow,StockOnHand:ESA-eCommerce,StockOnHand:ESA-eCommerce
+Data Exchange-Parts Stock integration,N,flow,StockOnHand:ESA-Middleware,StockOnHand:ESA-Middleware
+Data Exchange-Parts Stock integration,N,flow,StockOnHand:Middleware-eCommerce,StockOnHand:Middleware-eCommerce
+Data Exchange-Payment integration,N,flow,Payment:eCommerce-PSP,Payment:eCommerce-PSP
+Data Exchange-Pricing  integration,Y,flow,Price:CXR-eCommerce,Price:CXR-eCommerce
+Data Exchange-Pricing  integration,Y,flow,Price:ERP-eCommerce,Price:ERP-eCommerce
+Data Exchange-Pricing  integration,Y,flow,Price:ExtMerchant-MerchantPortal,Price:ExtMerchant-MerchantPortal
+Data Exchange-Pricing  integration,Y,flow,VanVehiclePrice:CWC-eCommerce,VanVehiclePrice:CWC-eCommerce
+Data Exchange-Pricing  integration,Y,flow,ServicePackage:CSV-eCommerce,ServicePackage:CSV-eCommerce
+Data Exchange-Pricing  integration,Y,flow,VanServicePackagePrice:CSV-eCommerce,VanServicePackagePrice:CSV-eCommerce
+Data Exchange-Pricing  integration,Y,flow,VanVehiclePrice:CWC-Middleware,VanVehiclePrice:CWC-Middleware
+Data Exchange-Pricing  integration,Y,flow,VanVehiclePrice:Middleware-eCommerce,VanVehiclePrice:Middleware-eCommerce
+Data Exchange-Pricing  integration,Y,flow,VanVehiclePrice:CRM-Middleware,VanVehiclePrice:CRM-Middleware
+Data Exchange-Pricing  integration,Y,flow,Price:ERP-Middleware,Price:ERP-Middleware
+Data Exchange-Pricing  integration,Y,flow,Price:Middleware-eCommerce,Price:Middleware-eCommerce
+Data Exchange-Product integration,Y,flow,Product:Middleware-eCommerce,Product:Middleware-eCommerce
+Data Exchange-Product integration,Y,flow,Product:ERP-eCommerce,Product:ERP-eCommerce
+Data Exchange-Product integration,Y,flow,Product:CSV-eCommerce,Product:CSV-eCommerce
+Data Exchange-Product integration,Y,flow,Product:ExtMerchant-eCommerce,Product:ExtMerchant-eCommerce
+Data Exchange-Product integration,Y,flow,Product:ExtMerchant-MerchantPortal,Product:ExtMerchant-MerchantPortal
+Data Exchange-Product integration,Y,flow,ProductDetails:PIM-eCommerce,ProductDetails:PIM-eCommerce
+Data Exchange-Product integration,Y,flow,ProductDetails:PIM-Middleware,ProductDetails:PIM-Middleware
+Data Exchange-Refound integration,N,flow,Refund:eCommerce-PSP,Refund:eCommerce-PSP
+Data Exchange-Refound integration,N,flow,Refund:PSP-eCommerce,Refund:PSP-eCommerce
+Data Exchange-Serial Number Lookup,Y,flow,SerialNumberToBOM:VehicleService-eCommerce,SerialNumberToBOM:VehicleService-eCommerce
+Data Exchange-Serial Number Lookup,Y,flow,SerialNumberToBOM:VehicleService-Middleware,SerialNumberToBOM:VehicleService-Middleware
+Data Exchange-Serial Number Lookup,Y,flow,SerialNumberToBOM:Middleware-eCommerce,SerialNumberToBOM:Middleware-eCommerce
+Data Exchange-Shipment integration,N,flow,Shipment:ERP-eCommerce,Shipment:ERP-eCommerce
+Data Exchange-Shipment integration,N,flow,Shipment:P2P-eCommerce,Shipment:P2P-eCommerce
+Data Exchange-WebConfig,Y,module,DAM-WebConfig,DAM-WebConfig
+Data Exchange-WebConfig,Y,screen,WebConfig,WebConfig
+Data Exchange-WebConfig,Y,flow,InstalledBase:eCommerce-Middleware,InstalledBase:eCommerce-Middleware
+Data Exchange-WebConfig,Y,flow,InstalledBase:Middleware-eCommerce,InstalledBase:Middleware-eCommerce
+Discount-Cart rule,N,screen,BckAdmPanel,BckAdmPanel
+Discount-Cart rule,N,module,Discount-Cart rule,Discount-Cart rule
+Discount-Discounts based on shipment,N,module,Discount-Discounts based on shipment,Discount-Discounts based on shipment
+Discount-Promotions & Discounts,N,screen,BckAdmPanel,BckAdmPanel
+Discount-Promotions & Discounts,N,screen,DiscountCoupon,DiscountCoupon
+Discount-Promotions & Discounts,N,module,Discount-Promotions & Discounts,Discount-Promotions & Discounts
+Discount-Promotions & Discounts,N,screen,PromotionDetailsAtPDP,PromotionDetailsAtPDP
+Discount-Vouchers,N,screen,BckAdmPanel,BckAdmPanel
+Discount-Vouchers,N,module,Discount-Vouchers,Discount-Vouchers
+Discount-Vouchers - export,N,screen,BckAdmPanel,BckAdmPanel
+Discount-Vouchers - export,N,module,Discount-Vouchers - export,Discount-Vouchers - export
+Discount-Vouchers - import,N,screen,BckAdmPanel,BckAdmPanel
+Discount-Vouchers - import,N,module,Discount-Vouchers - import,Discount-Vouchers - import
+IAM-Backend administrator user and roles setup,Y,module,IAM-Backend administrator user and roles setup,IAM-Backend administrator user and roles setup
+IAM-SSO for Administrators,N,flow,AdminIdentity:Backoffice-ERP,AdminIdentity:Backoffice-ERP
+IAM-SSO for Administrators,N,module,IAM-SSO for Administrators,IAM-SSO for Administrators
+IAM-SSO for Customers,Y,flow,CustomerIdentity:Gigya-eCommerce,CustomerIdentity:Gigya-eCommerce
+IAM-SSO for Customers,Y,module,IAM-SSO for Customers,IAM-SSO for Customers
+IAM-SSO for Merchants,N,module,IAM-SSO for Merchants,IAM-SSO for Merchants
+Inventory-Availability Notification,N,module,Inventory-Availability Notification,Inventory-Availability Notification
+Inventory-Availability Notification,N,screen,PDP,PDP
+Inventory-Merchant Product Offers,N,module,Inventory-Merchant Product Offers,Inventory-Merchant Product Offers
+Inventory-Stock and Availability management,N,flow,StockOnHand:CSV-eCommerce,StockOnHand:CSV-eCommerce
+Inventory-Stock and Availability management,N,screen,BckAdmPanel,BckAdmPanel
+Inventory-Stock and Availability management,N,module,Inventory-Stock and Availability management,Inventory-Stock and Availability management
+Inventory-Warehouse Management,N,screen,BckAdmPanel,BckAdmPanel
+Inventory-Warehouse Management,N,module,Inventory-Warehouse Management,Inventory-Warehouse Management
+Localisation & Translation-Back Office Translations,N,module,Localisation & Translation-Back Office Translations,Localisation & Translation-Back Office Translations
+Localisation & Translation-Glossary Management,N,module,Localisation & Translation-Glossary Management,Localisation & Translation-Glossary Management
+Localisation & Translation-Storefront Translations,Y,screen,LangSwitcher,LangSwitcher
+Localisation & Translation-Storefront Translations,Y,module,Localisation & Translation-Storefront Translations,Localisation & Translation-Storefront Translations
+Merchant-Merchant Category,N,module,Merchant-Merchant Category,Merchant-Merchant Category
+Merchant-Merchant Management,N,flow,MerchantSOH:CSV-eCommerce,MerchantSOH:CSV-eCommerce
+Merchant-Merchant Management,N,screen,BckAdmPanel,BckAdmPanel
+Merchant-Merchant Management,N,module,Merchant-Merchant Management,Merchant-Merchant Management
+Merchant-Merchant Management,N,flow,MerchantAccount:CSV-eCommerce,MerchantAccount:CSV-eCommerce
+Merchant-Merchant Management,N,flow,MerchantUser:CSV-eCommerce,MerchantUser:CSV-eCommerce
+Merchant-Merchant Portal,N,module,Merchant-Merchant Portal,Merchant-Merchant Portal
+Merchant-Merchant Portal,N,screen,BckMerchantProfile,BckMerchantProfile
+Merchant-Merchant Portal Login,N,module,Merchant-Merchant Portal Login,Merchant-Merchant Portal Login
+Merchant-Merchant Portal Login,N,screen,BckMerchantProfile,BckMerchantProfile
+Merchant-Merchant Product Offers,N,module,Merchant-Merchant Product Offers,Merchant-Merchant Product Offers
+Merchant-Merchant Product Offers,N,screen,BckMerchantProfile,BckMerchantProfile
+Merchant-Merchant Product Restrictions,N,screen,BckAdmPanel,BckAdmPanel
+Merchant-Merchant Product Restrictions,N,module,Merchant-Merchant Product Restrictions,Merchant-Merchant Product Restrictions
+Merchant-Merchant Profile,N,module,Merchant-Merchant Profile,Merchant-Merchant Profile
+Merchant-Merchant Profile,N,screen,BckMerchantProfile,BckMerchantProfile
+Merchant-Merchant Profile,N,screen,MarketPlaceSellerPage,MarketPlaceSellerPage
+Merchant-Store locator,N,screen,StoreLocator,StoreLocator
+Merchant-Store locator,N,flow,PickupLocation:ERP-eCommerce,PickupLocation:ERP-eCommerce
+Notifications-Email notifications,N,module,Notifications-Email notifications,Notifications-Email notifications
+Notifications-Receipient integration with Salesforce,N,module,Notifications-Receipient integration with Salesforce,Notifications-Receipient integration with Salesforce
+Notifications-SMS notifications,N,flow,Message:eCommerce-SMS,Message:eCommerce-SMS
+Notifications-SMS notifications,N,module,Notifications-SMS notifications,Notifications-SMS notifications
+Order-Annual Returns for Backoffice,N,screen,BckAdmPanel,BckAdmPanel
+Order-Annual Returns for Backoffice,N,module,OMS-Annual Returns for Backoffice,OMS-Annual Returns for Backoffice
+Order-Annual Returns. Approval,N,screen,MyProfile,MyProfile
+Order-Annual Returns. Approval,N,module,OMS-Annual Returns. Approval,OMS-Annual Returns. Approval
+Order-Annual Returns. Create and Status,N,screen,MyProfile,MyProfile
+Order-Annual Returns. Create and Status,N,module,OMS-Annual Returns. Create and Status,OMS-Annual Returns. Create and Status
+Order-Annual Returns. Credit Memo,N,screen,MyProfile,MyProfile
+Order-Annual Returns. Credit Memo,N,module,OMS-Annual Returns. Credit Memo,OMS-Annual Returns. Credit Memo
+Order-Annual Returns. Download,N,screen,MyProfile,MyProfile
+Order-Annual Returns. Download,N,module,OMS-Annual Returns. Download,OMS-Annual Returns. Download
+Order-Invoice Generation,N,module,OMS-Invoice Generation,OMS-Invoice Generation
+Order-Merchant Orders Management,N,screen,BckMerchantProfile,BckMerchantProfile
+Order-Merchant Orders Management,N,module,OMS-Merchant Orders Management,OMS-Merchant Orders Management
+Order-Order Cancellation,N,module,OMS-Order Cancellation,OMS-Order Cancellation
+Order-Order Cancellation,N,screen,MyProfile,MyProfile
+Order-Order documents,N,flow,OrderDocuments:CRM-Middleware,OrderDocuments:CRM-Middleware
+Order-Order documents,N,flow,OrderDocuments:Middleware-eCommerce,OrderDocuments:Middleware-eCommerce
+Order-Order Management,Y,screen,BckAdmPanel,BckAdmPanel
+Order-Order Management,Y,module,OMS-Order Management,OMS-Order Management
+Order-Order Split for multiple ERP,N,module,OMS-Order Split for multiple ERP,OMS-Order Split for multiple ERP
+Order-Order Split for multiple ERP,N,flow,Order:eCommerce-ERP,Order:eCommerce-ERP
+Order-Packing Slip Download for Merchant,N,screen,BckMerchantProfile,BckMerchantProfile
+Order-Packing Slip Download for Merchant,N,module,OMS-Packing Slip Download for Merchant,OMS-Packing Slip Download for Merchant
+Order-Packing Slip for Merchant,N,screen,BckMerchantProfile,BckMerchantProfile
+Order-Packing Slip for Merchant,N,module,OMS-Packing Slip for Merchant,OMS-Packing Slip for Merchant
+Order-Reclamations Management in Backoffice,N,screen,BckAdmPanel,BckAdmPanel
+Order-Reclamations Management in Backoffice,N,module,OMS-Reclamations Management in Backoffice,OMS-Reclamations Management in Backoffice
+Order-Refunds,N,screen,BckAdmPanel,BckAdmPanel
+Order-Refunds,N,module,OMS-Refunds,OMS-Refunds
+Order-Reorder,Y,module,CRM-Reorder,CRM-Reorder
+Order-Reorder,Y,screen,MyProfile,MyProfile
+Order-Return Management,N,screen,MyProfile,MyProfile
+Order-Return Management,N,module,OMS-Return Management,OMS-Return Management
+Order-Return Management,N,screen,Return,Return
+Order-Return Management,N,screen,Refund,Refund
+Order-Splittable Order Items,N,module,OMS-Splittable Order Items,OMS-Splittable Order Items
+Order-State Machine Modelling,Y,module,OMS-State Machine Modelling,OMS-State Machine Modelling
+Payment-Payment Method,N,module,PSP-Payment Method,PSP-Payment Method
+Payment-Payment Service Provider Integration,N,module,PSP-Payment Service Provider Integration,PSP-Payment Service Provider Integration
+Price -Customer Specific Prices,N,screen,BckAdmPanel,BckAdmPanel
+Price -Customer Specific Prices,N,module,Price -Customer Specific Prices,Price -Customer Specific Prices
+Price -Merchant Custom Prices,N,module,Price -Merchant Custom Prices,Price -Merchant Custom Prices
+Price -Net & Gross Price Mode,N,screen,BckAdmPanel,BckAdmPanel
+Price -Net & Gross Price Mode,N,module,Price -Net & Gross Price Mode,Price -Net & Gross Price Mode
+Price -Net & Gross Price Mode,N,flow,Price:CSV-eCommerce,Price:CSV-eCommerce
+Price -Scheduled Prices,N,screen,BckAdmPanel,BckAdmPanel
+Price -Scheduled Prices,N,module,Price -Scheduled Prices,Price -Scheduled Prices
+Price -Vehicle residual value,N,screen,ResidualValue,ResidualValue
+Price -Vehicle residual value,N,flow,ResidualValue:ResidualValueEngine-Frontend,ResidualValue:ResidualValueEngine-Frontend
+Price -Vehicle residual value,N,module,Price -Vehicle price calculation,Price -Vehicle price calculation
+Price -Vehicle residual value,N,flow,ResidualValue:ResidualValueEngine-Middleware,ResidualValue:ResidualValueEngine-Middleware
+Price -Vehicle residual value,N,flow,ResidualValue:Middleware-Frontend,ResidualValue:Middleware-Frontend
+Price -Vehicle residual value,N,flow,ResidualValue:Frontend-ResidualValueEngine,ResidualValue:Frontend-ResidualValueEngine
+Price -Vehicle residual value,N,flow,ResidualValue:Frontend-Middleware,ResidualValue:Frontend-Middleware
+Price -Vehicle residual value,N,flow,ResidualValue:Middleware-ResidualValueEngine,ResidualValue:Middleware-ResidualValueEngine
+Price -Volume Prices,N,screen,BckAdmPanel,BckAdmPanel
+Price -Volume Prices,N,module,Price -Volume Prices,Price -Volume Prices
+Product-Alternative Products,N,screen,BckAdmPanel,BckAdmPanel
+Product-Alternative Products,N,module,PIM-Alternative Products,PIM-Alternative Products
+Product-Category Management,Y,screen,BckAdmPanel,BckAdmPanel
+Product-Category Management,Y,screen,CatTree,CatTree
+Product-Category Management,Y,module,PIM-Category Management,PIM-Category Management
+Product-Category Pages. PLP.,Y,module,PIM-Category Pages. PLP.,PIM-Category Pages. PLP.
+Product-Category Pages. PLP.,Y,screen,PLP,PLP
+Product-Configurable Bundle,N,screen,BckAdmPanel,BckAdmPanel
+Product-Configurable Bundle,N,module,PIM-Configurable Bundle,PIM-Configurable Bundle
+Product-Configurable Product,Y,module,PIM-Configurable Product,PIM-Configurable Product
+Product-Discontinued products,N,screen,BckAdmPanel,BckAdmPanel
+Product-Discontinued products,N,module,PIM-Discontinued products,PIM-Discontinued products
+Product-Downloadable/virtual products,Y,module,PIM-Downloadable/virtual products,PIM-Downloadable/virtual products
+Product-Gift Card,N,screen,PDP,PDP
+Product-Gift Card,N,module,PIM-Gift Card,PIM-Gift Card
+Product-Guided Selling,Y,flow,GuidedSelling:Middleware-Frontend,GuidedSelling:Middleware-Frontend
+Product-Guided Selling,Y,module,PIM-Guided Selling,PIM-Guided Selling
+Product-Guided Selling,Y,screen,ProductFinder,ProductFinder
+Product-Guided Selling,Y,screen,WizardSixSteps,WizardSixSteps
+Product-Guided Selling,Y,screen,Finder Result Page,Finder Result Page
+Product-Literature Library,Y,flow,Media:MediaStorage-eCommerce,Media:MediaStorage-eCommerce
+Product-Literature Library,Y,screen,PDP,PDP
+Product-Literature Library,Y,module,PIM-Literature Library,PIM-Literature Library
+Product-Marketplace,Y,screen,Marketplace,Marketplace
+Product-Marketplace,Y,module,CMS-Marketplace,CMS-Marketplace
+Product-Merchant Product Approval Process,N,screen,BckAdmPanel,BckAdmPanel
+Product-Merchant Product Approval Process,N,module,PIM-Merchant Product Approval Process,PIM-Merchant Product Approval Process
+Product-Product Abstraction,Y,screen,BckAdmPanel,BckAdmPanel
+Product-Product Abstraction,Y,module,PIM-Product Abstraction,PIM-Product Abstraction
+Product-Product Attributes,Y,screen,BckAdmPanel,BckAdmPanel
+Product-Product Attributes,Y,module,PIM-Product Attributes,PIM-Product Attributes
+Product-Product Barcode,N,screen,BckAdmPanel,BckAdmPanel
+Product-Product Barcode,N,module,PIM-Product Barcode,PIM-Product Barcode
+Product-Product Bundles,N,screen,BckAdmPanel,BckAdmPanel
+Product-Product Bundles,N,module,PIM-Product Bundles,PIM-Product Bundles
+Product-Product Bundles,N,flow,ProductBundle:CSV-eCommerce,ProductBundle:CSV-eCommerce
+Product-Product Compare,N,screen,ProductsCompare,ProductsCompare
+Product-Product Detail Page,Y,screen,PDP,PDP
+Product-Product Detail Page,Y,screen,PDPRobots,PDPRobots
+Product-Product Detail Page,Y,screen,PDPSoftware,PDPSoftware
+Product-Product Detail Page,Y,screen,PDPControllers,PDPControllers
+Product-Product Detail Page,Y,screen,PDPServices,PDPServices
+Product-Product Detail Page,Y,screen,PDPAccessories,PDPAccessories
+Product-Product Detail Page,Y,screen,PDPSpareParts,PDPSpareParts
+Product-Product Detail Page,Y,screen,PDPSolutions,PDPSolutions
+Product-Product Detail Page,Y,screen,MediaGallery,MediaGallery
+Product-Product Detail Page,Y,screen,GeneralInfo,GeneralInfo
+Product-Product Detail Page,Y,screen,Specifications,Specifications
+Product-Product Detail Page,Y,screen,CompatibleProducts,CompatibleProducts
+Product-Product Detail Page,Y,screen,Documentation,Documentation
+Product-Product Detail Page,Y,screen,Certificates,Certificates
+Product-Product Detail Page,Y,screen,FAQ,FAQ
+Product-Product Detail Page,Y,screen,Licenses,Licenses
+Product-Product Detail Page,Y,screen,Options,Options
+Product-Product details integration from CWC,N,flow,ProductDetails:CWC-eCommerce,ProductDetails:CWC-eCommerce
+Product-Product details integration from CWC,N,flow,ProductDetails:CWC-Middleware,ProductDetails:CWC-Middleware
+Product-Product Groups,Y,module,PIM-Product Groups,PIM-Product Groups
+Product-Product Images,Y,screen,BckAdmPanel,BckAdmPanel
+Product-Product Images,Y,module,PIM-Product Images,PIM-Product Images
+Product-Product Labels,N,screen,BckAdmPanel,BckAdmPanel
+Product-Product Labels,N,module,PIM-Product Labels,PIM-Product Labels
+Product-Product Lists,N,screen,BckAdmPanel,BckAdmPanel
+Product-Product Lists,N,module,PIM-Product Lists,PIM-Product Lists
+Product-Product Options,Y,screen,BckAdmPanel,BckAdmPanel
+Product-Product Options,Y,module,PIM-Product Options,PIM-Product Options
+Product-Product Relations,Y,screen,BckAdmPanel,BckAdmPanel
+Product-Product Relations,Y,module,PIM-Product Relations,PIM-Product Relations
+Product-Product Relations,Y,flow,ProductsRelations:Mantis-eCommerce,ProductsRelations:Mantis-eCommerce
+Product-Product Relations,Y,flow,ProductsRelations:Mantis-Middleware,ProductsRelations:Mantis-Middleware
+Product-Product Relations,Y,flow,ProductsRelations:Middleware-eCommerce,ProductsRelations:Middleware-eCommerce
+Product-Ratings & Reviews,N,screen,PDP,PDP
+Product-Ratings & Reviews,N,module,PIM-Ratings & Reviews,PIM-Ratings & Reviews
+Product-Timed Product Availability,N,screen,BckAdmPanel,BckAdmPanel
+Product-Timed Product Availability,N,module,PIM-Timed Product Availability,PIM-Timed Product Availability
+PublicAPI-API: Advanced Shipping Notification,N,flow,Shipment:eCommerce-GlueAPI,Shipment:eCommerce-GlueAPI
+PublicAPI-API: Availability,N,flow,StockOnHand:eCommerce-GlueAPI,StockOnHand:eCommerce-GlueAPI
+PublicAPI-API: Deep Linking,N,flow,Product:eCommerce-GlueAPI,Product:eCommerce-GlueAPI
+PublicAPI-API: Order Status,N,flow,Order:eCommerce-GlueAPI,Order:eCommerce-GlueAPI
+PublicAPI-API: Part Details,N,flow,Parts_Product:eCommerce-GlueAPI,Parts_Product:eCommerce-GlueAPI
+PublicAPI-API: Part Search By Application,N,flow,Product:eCommerce-GlueAPI,Product:eCommerce-GlueAPI
+PublicAPI-API: Place Order,N,flow,Order:eCommerce-GlueAPI,Order:eCommerce-GlueAPI
+PublicAPI-API: Pricing,N,flow,Price:eCommerce-GlueAPI,Price:eCommerce-GlueAPI
+PublicAPI-API: ProConnectExchange,N,flow,MerchantSOH:eCommerce-GlueAPI,MerchantSOH:eCommerce-GlueAPI
+RFQ-Marketplace distributor RFQ,Y,screen,RFQList,RFQList
+RFQ-Marketplace distributor RFQ,Y,screen,MyProfile,MyProfile
+RFQ-Marketplace distributor RFQ,Y,module,RFQ-Marketplace distributor RFQ,RFQ-Marketplace distributor RFQ
+RFQ-Marketplace distributor RFQ,Y,screen,RFQDetails,RFQDetails
+RFQ-Marketplace distributor RFQ for Backoffice,N,screen,MyProfile,MyProfile
+RFQ-Marketplace distributor RFQ for Backoffice,N,module,RFQ-Marketplace distributor RFQ for Backoffice,RFQ-Marketplace distributor RFQ for Backoffice
+RFQ-Quotation & Offer Management,Y,screen,MyProfile,MyProfile
+RFQ-Quotation & Offer Management,Y,flow,Quote:eCommerce-Middleware,Quote:eCommerce-Middleware
+RFQ-Quotation & Offer Management,Y,flow,Quote:Middleware-eCommerce,Quote:Middleware-eCommerce
+RFQ-Quotation & Offer Management,Y,module,RFQ-Quotation & Offer Management,RFQ-Quotation & Offer Management
+Search-Application/Fitmnet,N,module,Search-Application/Fitmnet,Search-Application/Fitmnet
+Search-DocumentationSearch,Y,module,DAM-DocumentationSearch,DAM-DocumentationSearch
+Search-DocumentationSearch,Y,screen,DocumentationSearch,DocumentationSearch
+Search-DocumentationSearch,Y,screen,KeywordSearch,KeywordSearch
+Search-Faced filters,Y,screen,ProductFilters,ProductFilters
+Search-Faced filters,Y,module,Search-Faced filters,Search-Faced filters
+Search-Find End Yoke,N,module,Search-Find End Yoke,Search-Find End Yoke
+Search-Full-site Search,Y,screen,AdvancedSearch,AdvancedSearch
+Search-Full-site Search,Y,module,Search-Full-site Search,Search-Full-site Search
+Search-Full-site Search,Y,screen,SearchResults,SearchResults
+Search-Search Preferences,N,module,Search-Search Preferences,Search-Search Preferences
+Search-Search within facet filter,N,module,Search-Search within facet filter,Search-Search within facet filter
+Search-Visual Search,N,module,Search-Visual Search,Search-Visual Search
+Search-Year make model,N,module,Search-Year make model,Search-Year make model
+SEO-SEO for catalog,N,screen,PLP,PLP
+SEO-SEO for catalog,N,module,SEO-SEO for catalog,SEO-SEO for catalog
+SEO-SEO for products,N,screen,PDP,PDP
+SEO-SEO for products,N,module,SEO-SEO for products,SEO-SEO for products
+SEO-Sitemap,N,module,SEO-Sitemap,SEO-Sitemap
+"Setup-Setup of local environment, DevOps with Spryker Cloud",N,module,"Setup-Setup of local environment, DevOps with Spryker Cloud","Setup-Setup of local environment, DevOps with Spryker Cloud"
+"Setup-Store, region, locales creation",N,module,"Setup-Store, region, locales creation","Setup-Store, region, locales creation"
+Shipment-Custom availability,N,module,Shipment-Custom availability,Shipment-Custom availability
+Shipment-Custom delivery time calculation,N,module,Shipment-Custom delivery time calculation,Shipment-Custom delivery time calculation
+Shipment-Custom price calculation,N,module,Shipment-Custom price calculation,Shipment-Custom price calculation
+Shipment-Ship To location import,N,flow,ShipToLocation:WorkshopInfo-eCommerce,ShipToLocation:WorkshopInfo-eCommerce
+Shipment-Shipment,Y,screen,Shipment,Shipment
+Shipment-Shipment,Y,module,Shipment-Shipment,Shipment-Shipment
+Shipment-Shipment Carriers & Methods management,N,screen,BckAdmPanel,BckAdmPanel
+Shipment-Shipment Carriers & Methods management,N,module,Shipment-Shipment Carriers & Methods management,Shipment-Shipment Carriers & Methods management
+Shipment-Tracking code,N,screen,BckAdmPanel,BckAdmPanel
+Shipment-Tracking code,N,module,Shipment-Tracking code,Shipment-Tracking code
+Shopping List & Wish List-Permission Management for Shopping Lists,N,module,Shopping List & Wish List-Permission Management for Shopping Lists,Shopping List & Wish List-Permission Management for Shopping Lists
+Shopping List & Wish List-Shopping List Management,N,module,Shopping List & Wish List-Shopping List Management,Shopping List & Wish List-Shopping List Management
+Shopping List & Wish List-Wish List,N,module,Shopping List & Wish List-Wish List,Shopping List & Wish List-Wish List
+Shopping List & Wish List-Wish List,N,screen,Whishlist,Whishlist
+Tax-Avalara Integration,N,module,Tax-Avalara Integration,Tax-Avalara Integration
+Tax-Manage Tax Rates & Sets,N,screen,BckAdmPanel,BckAdmPanel
+Tax-Manage Tax Rates & Sets,N,module,Tax-Manage Tax Rates & Sets,Tax-Manage Tax Rates & Sets
